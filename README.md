@@ -18,7 +18,8 @@ Student developer building things with AI assistance. I like clean UIs and tools
 
 ## 📊 Stats
 
-<img src="https://github-readme-stats.vercel.app/api?username=QQSHI13&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="QQ's GitHub stats" />
+![Stats](https://github-readme-streak-stats.herokuapp.com/?user=QQSHI13&theme=dark&hide_border=true)
+
 
 ## 🔗 Links
 
