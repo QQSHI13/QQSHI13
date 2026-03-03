@@ -9,6 +9,8 @@ Student developer building things with AI assistance. I like clean UIs and tools
 | 🍅 **[Flow](https://github.com/QQSHI13/flow)** | Pomodoro timer + clock. Dark theme, keyboard shortcuts, PWA ready | [qqshi13.github.io/flow](https://qqshi13.github.io/flow/) |
 | 📦 **[DropTransfer](https://github.com/QQSHI13/droptransfer)** | P2P file sharing. Direct browser-to-browser, no server storage | [qqshi13.github.io/droptransfer](https://qqshi13.github.io/droptransfer/) |
 | 🧪 **[API Tester](https://github.com/QQSHI13/api-tester)** | HTTP client in your browser. Test APIs without installing anything | [qqshi13.github.io/api-tester](https://qqshi13.github.io/api-tester/) |
+| 🌳 **[JSON Visualizer](https://github.com/QQSHI13/json-viewer)** | Interactive JSON viewer with collapsible tree and live validation | [qqshi13.github.io/json-viewer](https://qqshi13.github.io/json-viewer/) |
+| 🔍 **[Regex Tester](https://github.com/QQSHI13/regex-tester)** | Live regex pattern matching with substitution preview | [qqshi13.github.io/regex-tester](https://qqshi13.github.io/regex-tester/) |
 
 ## 🎮 Hardware Projects
 
