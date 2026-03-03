@@ -1,33 +1,37 @@
-# 👋 Hi, I'm QQ
+# QQ's Tools
 
-Student developer building things with AI assistance. I like clean UIs and tools that just work.
+Student developer building simple, focused tools with AI assistance.
 
-## 🛠️ My Tools
+## 🛠️ Developer Tools
 
-| Project | Description | Live |
-|---------|-------------|------|
-| 🍅 **[Flow](https://github.com/QQSHI13/flow)** | Pomodoro timer + clock. Dark theme, keyboard shortcuts, PWA ready | [qqshi13.github.io/flow](https://qqshi13.github.io/flow/) |
-| 📦 **[DropTransfer](https://github.com/QQSHI13/droptransfer)** | P2P file sharing. Direct browser-to-browser, no server storage | [qqshi13.github.io/droptransfer](https://qqshi13.github.io/droptransfer/) |
-| 🧪 **[API Tester](https://github.com/QQSHI13/api-tester)** | HTTP client in your browser. Test APIs without installing anything | [qqshi13.github.io/api-tester](https://qqshi13.github.io/api-tester/) |
-| 🌳 **[JSON Visualizer](https://github.com/QQSHI13/json-viewer)** | Interactive JSON viewer with collapsible tree and live validation | [qqshi13.github.io/json-viewer](https://qqshi13.github.io/json-viewer/) |
-| 🔍 **[Regex Tester](https://github.com/QQSHI13/regex-tester)** | Live regex pattern matching with substitution preview | [qqshi13.github.io/regex-tester](https://qqshi13.github.io/regex-tester/) |
+| Tool | Description | Live |
+|------|-------------|------|
+| ⏱️ **[Flow](https://github.com/QQSHI13/flow)** | Pomodoro timer with progress ring | [Live](https://qqshi13.github.io/flow/) |
+| ⚡ **[API Tester](https://github.com/QQSHI13/api-tester)** | HTTP client in browser | [Live](https://qqshi13.github.io/api-tester/) |
+| 🌳 **[JSON Visualizer](https://github.com/QQSHI13/json-viewer)** | Collapsible tree viewer | [Live](https://qqshi13.github.io/json-viewer/) |
+| 🔍 **[Regex Tester](https://github.com/QQSHI13/regex-tester)** | Live pattern matching | [Live](https://qqshi13.github.io/regex-tester/) |
+| 🔑 **[JWT Decoder](https://github.com/QQSHI13/jwt-decoder)** | Inspect JSON Web Tokens | [Live](https://qqshi13.github.io/jwt-decoder/) |
+| 📊 **[CSV to JSON](https://github.com/QQSHI13/csv-json)** | Transform data instantly | [Live](https://qqshi13.github.io/csv-json/) |
 
-## 🎮 Hardware Projects
+## 📦 Other Projects
 
-- **[Arduino Snake Game](https://github.com/QQSHI13/Arduino_Snake_Game)** - Portable snake game on Arduino
-- **[Micro:bit Spacecraft](https://github.com/QQSHI13/Micro-bit_Spacecraft_Game)** - Dodge asteroids on micro:bit
-- **[Micro:bit Snake](https://github.com/QQSHI13/Micro-bit_Snake_Game)** - Snake game for micro:bit
+| Project | Description |
+|---------|-------------|
+| 📦 **[DropTransfer](https://github.com/QQSHI13/droptransfer)** | P2P file sharing |
+| 🎮 **[24 Game](https://qqshi13.github.io/24.html)** | 24 points solver |
+| 🕐 **[Time](https://qqshi13.github.io/time.html)** | Minimalist clock |
 
-## 📊 Stats
+## 🎮 Hardware
 
-![Stats](https://github-readme-streak-stats.herokuapp.com/?user=QQSHI13&theme=dark&hide_border=true)
-
+- **[Arduino Snake Game](https://github.com/QQSHI13/Arduino_Snake_Game)**
+- **[Micro:bit Spacecraft](https://github.com/QQSHI13/Micro-bit_Spacecraft_Game)**
+- **[Micro:bit Snake](https://github.com/QQSHI13/Micro-bit_Snake_Game)**
 
 ## 🔗 Links
 
-- 🌐 **Website:** [qqshi13.github.io](https://qqshi13.github.io)
-- 💝 **Support:** [Afdian](https://afdian.com/a/QQSHI13)
+🌐 **Website:** [qqshi13.github.io](https://qqshi13.github.io)  
+💝 **Support:** [afdian.com/a/QQSHI13](https://afdian.com/a/QQSHI13)
 
 ---
 
-*Built with ☄️ [Nova](https://github.com/openclaw/openclaw) — my AI coding assistant*
+Built with ☄️ [Nova](https://github.com/openclaw/openclaw)
