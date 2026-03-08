@@ -18,7 +18,7 @@ Student developer building simple, focused tools with AI assistance.
 | Project | Description |
 |---------|-------------|
 | 📦 **[DropTransfer](https://github.com/QQSHI13/droptransfer)** | P2P file sharing |
-| 🕐 **[Time](https://qqshi13.github.io/time.html)** | Minimalist clock |
+| 🕐 **[Time](https://qqshi13.github.io/flow/time.html)** | Minimalist clock |
 
 ## 🎮 Hardware
 
