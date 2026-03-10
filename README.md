@@ -1,49 +1,67 @@
-# QQ's Tools
+# Hi, I'm QQ (施清荃) 👋
 
-Student developer building simple, focused tools with AI assistance.
+[![GitHub Sponsors](https://img.shields.io/github/sponsors/QQSHI13?style=social)](https://github.com/sponsors/QQSHI13)
+[![Repos](https://img.shields.io/badge/Repos-21-blue)](https://github.com/QQSHI13?tab=repositories)
 
-## 🛠️ Developer Tools
+> 12-year-old developer building tools with OpenClaw and AI 🚀
 
-| Tool | Description | Live |
+## 🛠️ My Projects
+
+### Web Tools (GitHub Pages)
+All free, open source, dark theme inspired by GitHub:
+
+| Tool | Description | Link |
 |------|-------------|------|
-| ⏱️ **[Flow](https://github.com/QQSHI13/flow)** | Pomodoro timer with progress ring | [Live](https://qqshi13.github.io/flow/) |
-| ⚡ **[API Tester](https://github.com/QQSHI13/api-tester)** | HTTP client in browser | [Live](https://qqshi13.github.io/api-tester/) |
-| 🌳 **[JSON Visualizer](https://github.com/QQSHI13/json-viewer)** | Collapsible tree viewer | [Live](https://qqshi13.github.io/json-viewer/) |
-| 🔍 **[Regex Tester](https://github.com/QQSHI13/regex-tester)** | Live pattern matching | [Live](https://qqshi13.github.io/regex-tester/) |
-| 🔑 **[JWT Decoder](https://github.com/QQSHI13/jwt-decoder)** | Inspect JSON Web Tokens | [Live](https://qqshi13.github.io/jwt-decoder/) |
-| 📊 **[CSV to JSON](https://github.com/QQSHI13/csv-json)** | Transform data instantly | [Live](https://qqshi13.github.io/csv-json/) |
-| 📑 **[Diff Viewer](https://github.com/QQSHI13/diff-viewer)** | Compare text/code side-by-side | [Live](https://qqshi13.github.io/diff-viewer/) |
+| ⏰ Time & Flow | Clock + Pomodoro timer | [Live](https://qqshi13.github.io/flow/) |
+| 🔧 API Tester | HTTP client for testing APIs | [Live](https://qqshi13.github.io/api-tester/) |
+| 📊 JSON Viewer | Interactive JSON tree viewer | [Live](https://qqshi13.github.io/json-viewer/) |
+| 📝 Regex Tester | Live regex pattern testing | [Live](https://qqshi13.github.io/regex-tester/) |
+| 🔐 JWT Decoder | Decode and inspect JWT tokens | [Live](https://qqshi13.github.io/jwt-decoder/) |
+| 📄 CSV to JSON | Convert CSV files to JSON | [Live](https://qqshi13.github.io/csv-json/) |
+| 🔄 Diff Viewer | Compare text side-by-side | [Live](https://qqshi13.github.io/diff-viewer/) |
+| 📤 DropTransfer | P2P file sharing (WebRTC) | [Live](https://qqshi13.github.io/droptransfer/) |
+| 🔬 LifeLab | Cellular automaton explorer | [Live](https://qqshi13.github.io/lifelab/) |
 
-## 🎨 Interactive
+### Desktop Apps
 
-| Project | Description | Live |
-|---------|-------------|------|
-| 🔬 **[LifeLab](https://github.com/QQSHI13/lifelab)** | Conway's Game of Life simulator | [Live](https://qqshi13.github.io/lifelab/) |
-| 🎨 **[CollaBoard](https://github.com/QQSHI13/collaboard)** | Real-time collaborative whiteboard | [Live](https://qqshi13.github.io/collaboard/) |
+| App | Tech | Features |
+|-----|------|----------|
+| 📝 Quick Notes | Tauri + Rust | Global hotkey, Markdown, Auto-save |
 
-## 💻 Desktop Apps
+### Network Projects
 
-| App | Description | Download |
-|-----|-------------|----------|
-| 📝 **[Quick Notes](https://github.com/QQSHI13/quick-notes)** | Global hotkey note-taking app | [Releases](https://github.com/QQSHI13/quick-notes/releases) |
+- 🌐 **EvoMap Node** - AI self-evolution network node
+  - 3 tasks completed, 800 credits earned
+  - 2 assets published
 
-## 📦 Other Projects
+## 💖 Support My Work
 
-| Project | Description |
-|---------|-------------|
-| 📦 **[DropTransfer](https://github.com/QQSHI13/droptransfer)** | P2P file sharing |
+If you find my tools helpful, please consider sponsoring me!
 
-## 🎮 Hardware
+Your support helps me:
+- 🛠️ Build more free developer tools
+- 📚 Create tutorials and documentation
+- 🚀 Maintain and improve existing projects
 
-- **[Arduino Snake Game](https://github.com/QQSHI13/Arduino_Snake_Game)**
-- **[Micro:bit Spacecraft](https://github.com/QQSHI13/Micro-bit_Spacecraft_Game)**
-- **[Micro:bit Snake](https://github.com/QQSHI13/Micro-bit_Snake_Game)**
+[![Sponsor me on GitHub](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-pink?logo=github&style=for-the-badge)](https://github.com/sponsors/QQSHI13)
 
-## 🔗 Links
+## 🛠️ Tech Stack
 
-🌐 **Website:** [qqshi13.github.io/nova](https://qqshi13.github.io/nova/)  
-💝 **Support:** [afdian.com/a/QQSHI13](https://afdian.com/a/QQSHI13)
+- **Frontend:** Vanilla JavaScript, CSS3, HTML5
+- **Desktop:** Tauri (Rust), WebView
+- **AI/Automation:** OpenClaw, Custom Agents
+- **Hosting:** GitHub Pages
+- **Version Control:** Git, GitHub
+
+## 📊 GitHub Stats
+
+![QQ's GitHub Stats](https://github-readme-stats.vercel.app/api?username=QQSHI13&show_icons=true&theme=dark)
+
+## 🔗 Connect With Me
+
+- GitHub: [@QQSHI13](https://github.com/QQSHI13)
+- Personal Site: [qqshi13.github.io/nova](https://qqshi13.github.io/nova/)
 
 ---
 
-Built with ☄️ [Nova](https://github.com/openclaw/openclaw)
+<p align="center">Built with ❤️ by QQ (施清荃) + Nova ☄️</p>
