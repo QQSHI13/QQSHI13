@@ -318,24 +318,21 @@
     (function() {
       'use strict';
       
-      // Detect hard reload (Ctrl+F5 or Cmd+Shift+R)
-      let isHardReload = false;
-      if (window.performance) {
-        const navEntry = performance.getEntriesByType('navigation')[0];
-        if (navEntry && navEntry.type === 'reload') {
-          // Check for hard reload via timing or user agent hints
-          isHardReload = true;
-        }
+      // Detect hard reload (Ctrl+F5 or Cmd+Shift+R) or manual force refresh
+      // Note: Browser security prevents reliably detecting hard reloads vs normal reloads
+      // We only trigger refresh logic when explicitly requested via force-sw-refresh flag
+      let isForceRefresh = sessionStorage.getItem('force-sw-refresh');
+      if (isForceRefresh) {
+        sessionStorage.removeItem('force-sw-refresh');
       }
 
       if ('serviceWorker' in navigator) {
-        // Unregister existing SW on hard reload to force refresh
-        if (isHardReload || sessionStorage.getItem('force-sw-refresh')) {
-          sessionStorage.removeItem('force-sw-refresh');
+        // Unregister existing SW on force refresh to clear caches
+        if (isForceRefresh) {
           navigator.serviceWorker.getRegistrations().then(function(registrations) {
             registrations.forEach(function(registration) {
               registration.unregister().then(function() {
-                console.log('[PWA] SW unregistered for hard reload');
+                console.log('[PWA] SW unregistered for force refresh');
                 // Clear caches
                 if ('caches' in window) {
                   caches.keys().then(function(cacheNames) {
@@ -344,12 +341,10 @@
                     });
                   });
                 }
-                // Reload after unregister
-                window.location.reload();
               });
             });
           });
-          return;
+          // Continue with normal SW registration without auto-reload
         }
 
         // Normal SW registration
