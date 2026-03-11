@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QQSHI13 - Developer Profile</title>
+  <meta name="description" content="Student developer building simple, focused tools with AI assistance.">
+  
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#58a6ff">
+  
+  <!-- Icons -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%2358a6ff'/%3E%3Ctext x='50' y='65' font-size='50' text-anchor='middle' fill='white'%3EQQ%3C/text%3E%3C/svg%3E">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+    
+    h1 {
+      color: #e6edf3;
+      margin-bottom: 16px;
+      font-size: 2rem;
+    }
+    
+    h2 {
+      color: #e6edf3;
+      margin: 32px 0 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid #30363d;
+      font-size: 1.5rem;
+    }
+    
+    p {
+      margin: 16px 0;
+    }
+    
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+    }
+    
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #30363d;
+    }
+    
+    th {
+      font-weight: 600;
+      color: #e6edf3;
+    }
+    
+    tr:hover {
+      background-color: #161b22;
+    }
+    
+    .badges {
+      margin: 16px 0;
+    }
+    
+    .badges img {
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+    
+    hr {
+      border: none;
+      border-top: 1px solid #30363d;
+      margin: 24px 0;
+    }
+    
+    .update-toast {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #238636;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 6px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      display: none;
+      align-items: center;
+      gap: 12px;
+      z-index: 1000;
+    }
+    
+    .update-toast.show {
+      display: flex;
+      animation: slideIn 0.3s ease;
+    }
+    
+    @keyframes slideIn {
+      from {
+        transform: translateY(100px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    
+    .update-btn {
+      background: white;
+      color: #238636;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    
+    .update-btn:hover {
+      background: #f0f0f0;
+    }
+    
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px 16px;
+      }
+      
+      h1 {
+        font-size: 1.5rem;
+      }
+      
+      table {
+        font-size: 14px;
+      }
+      
+      th, td {
+        padding: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>QQ's Tools</h1>
+    
+    <div class="badges">
+      <a href="https://github.com/QQSHI13"><img src="https://img.shields.io/github/followers/QQSHI13?style=social" alt="GitHub followers"></a>
+      <a href="https://github.com/QQSHI13"><img src="https://komarev.com/ghpvc/?username=QQSHI13&color=blue" alt="Profile views"></a>
+    </div>
+    
+    <p>Student developer building simple, focused tools with AI assistance.</p>
+    
+    <h2>🛠️ Developer Tools</h2>
+    <table>
+      <thead>
+        <tr><th>Tool</th><th>Description</th><th>Live</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>⏱️ <a href="https://github.com/QQSHI13/flow"><strong>Flow</strong></a></td>
+          <td>Pomodoro timer with progress ring</td>
+          <td><a href="https://qqshi13.github.io/flow/">Live</a></td>
+        </tr>
+        <tr>
+          <td>⚡ <a href="https://github.com/QQSHI13/tools-suite/tree/main/api-tester"><strong>API Tester</strong></a></td>
+          <td>HTTP client in browser</td>
+          <td><a href="https://qqshi13.github.io/tools-suite/api-tester/">Live</a></td>
+        </tr>
+        <tr>
+          <td>🌳 <a href="https://github.com/QQSHI13/tools-suite/tree/main/json-viewer"><strong>JSON Visualizer</strong></a></td>
+          <td>Collapsible tree viewer</td>
+          <td><a href="https://qqshi13.github.io/tools-suite/json-viewer/">Live</a></td>
+        </tr>
+        <tr>
+          <td>🔍 <a href="https://github.com/QQSHI13/tools-suite/tree/main/regex-tester"><strong>Regex Tester</strong></a></td>
+          <td>Live pattern matching</td>
+          <td><a href="https://qqshi13.github.io/tools-suite/regex-tester/">Live</a></td>
+        </tr>
+        <tr>
+          <td>🔑 <a href="https://github.com/QQSHI13/tools-suite/tree/main/jwt-decoder"><strong>JWT Decoder</strong></a></td>
+          <td>Inspect JSON Web Tokens</td>
+          <td><a href="https://qqshi13.github.io/tools-suite/jwt-decoder/">Live</a></td>
+        </tr>
+        <tr>
+          <td>📊 <a href="https://github.com/QQSHI13/tools-suite/tree/main/csv-json"><strong>CSV to JSON</strong></a></td>
+          <td>Transform data instantly</td>
+          <td><a href="https://qqshi13.github.io/tools-suite/csv-json/">Live</a></td>
+        </tr>
+        <tr>
+          <td>📑 <a href="https://github.com/QQSHI13/tools-suite/tree/main/diff-viewer"><strong>Diff Viewer</strong></a></td>
+          <td>Compare text/code side-by-side</td>
+          <td><a href="https://qqshi13.github.io/tools-suite/diff-viewer/">Live</a></td>
+        </tr>
+        <tr>
+          <td>🎨 <a href="https://github.com/QQSHI13/tools-suite/tree/main/color-picker-plus"><strong>Color Picker Plus</strong></a></td>
+          <td>Advanced color picker with palette tools</td>
+          <td><a href="https://qqshi13.github.io/tools-suite/color-picker-plus/">Live</a></td>
+        </tr>
+        <tr>
+          <td>⌨️ <a href="https://github.com/QQSHI13/tools-suite/tree/main/keycode-logger"><strong>Keycode Logger</strong></a></td>
+          <td>Visual keyboard event display</td>
+          <td><a href="https://qqshi13.github.io/tools-suite/keycode-logger/">Live</a></td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <h2>🎨 Interactive</h2>
+    <table>
+      <thead>
+        <tr><th>Project</th><th>Description</th><th>Live</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>🔬 <a href="https://github.com/QQSHI13/lifelab"><strong>LifeLab</strong></a></td>
+          <td>Conway's Game of Life simulator</td>
+          <td><a href="https://qqshi13.github.io/lifelab/">Live</a></td>
+        </tr>
+        <tr>
+          <td>🎨 <a href="https://github.com/QQSHI13/collaboard"><strong>CollaBoard</strong></a></td>
+          <td>Real-time collaborative whiteboard</td>
+          <td><a href="https://qqshi13.github.io/collaboard/">Live</a></td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <h2>💻 Desktop Apps</h2>
+    <table>
+      <thead>
+        <tr><th>App</th><th>Description</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>📝 <a href="https://github.com/QQSHI13/quick-notes-extension"><strong>Quick Notes Extension</strong></a></td>
+          <td>Command Palette extension for quick note-taking</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <h2>📦 Other Projects</h2>
+    <table>
+      <thead>
+        <tr><th>Project</th><th>Description</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>📦 <a href="https://github.com/QQSHI13/droptransfer"><strong>DropTransfer</strong></a></td>
+          <td>P2P file sharing</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <h2>🎮 Hardware</h2>
+    <table>
+      <thead>
+        <tr><th>Project</th><th>Description</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>🎮 <a href="https://github.com/QQSHI13/esp32-button"><strong>ESP32 Button</strong></a></td>
+          <td>WiFi-enabled button with ESP32</td>
+        </tr>
+        <tr>
+          <td>🐍 <a href="https://github.com/QQSHI13/Arduino_Snake_Game"><strong>Arduino Snake Game</strong></a></td>
+          <td>Classic snake game on Arduino</td>
+        </tr>
+        <tr>
+          <td>🚀 <a href="https://github.com/QQSHI13/Micro-bit_Spacecraft_Game"><strong>Micro:bit Spacecraft</strong></a></td>
+          <td>Space shooter game on Micro:bit</td>
+        </tr>
+        <tr>
+          <td>🐍 <a href="https://github.com/QQSHI13/Micro-bit_Snake_Game"><strong>Micro:bit Snake</strong></a></td>
+          <td>Snake game on Micro:bit</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <h2>🔗 Links</h2>
+    <p>
+      🌐 <strong>Website:</strong> <a href="https://qqshi13.github.io/nova/">qqshi13.github.io/nova</a><br>
+      💝 <strong>Support:</strong> <a href="https://afdian.com/a/QQSHI13">afdian.com/a/QQSHI13</a>
+    </p>
+    
+    <hr>
+    
+    <p>Built with ☄️ <a href="https://github.com/openclaw/openclaw">Nova</a></p>
+  </div>
+
+  <!-- Update Toast Notification -->
+  <div id="update-toast" class="update-toast">
+    <span>🔄 New version available</span>
+    <button class="update-btn" onclick="refreshPage()">Refresh</button>
+  </div>
+
+  <script>
+    // Service Worker Registration with Auto-refresh on Hard Reload
+    (function() {
+      'use strict';
+      
+      // Detect hard reload (Ctrl+F5 or Cmd+Shift+R)
+      let isHardReload = false;
+      if (window.performance) {
+        const navEntry = performance.getEntriesByType('navigation')[0];
+        if (navEntry && navEntry.type === 'reload') {
+          // Check for hard reload via timing or user agent hints
+          isHardReload = true;
+        }
+      }
+
+      if ('serviceWorker' in navigator) {
+        // Unregister existing SW on hard reload to force refresh
+        if (isHardReload || sessionStorage.getItem('force-sw-refresh')) {
+          sessionStorage.removeItem('force-sw-refresh');
+          navigator.serviceWorker.getRegistrations().then(function(registrations) {
+            registrations.forEach(function(registration) {
+              registration.unregister().then(function() {
+                console.log('[PWA] SW unregistered for hard reload');
+                // Clear caches
+                if ('caches' in window) {
+                  caches.keys().then(function(cacheNames) {
+                    cacheNames.forEach(function(cacheName) {
+                      caches.delete(cacheName);
+                    });
+                  });
+                }
+                // Reload after unregister
+                window.location.reload();
+              });
+            });
+          });
+          return;
+        }
+
+        // Normal SW registration
+        navigator.serviceWorker.register('/sw.js')
+          .then(function(registration) {
+            console.log('[PWA] SW registered:', registration.scope);
+            
+            // Watch for updates
+            registration.addEventListener('updatefound', function() {
+              const newWorker = registration.installing;
+              newWorker.addEventListener('statechange', function() {
+                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                  // New version available
+                  showUpdateToast();
+                }
+              });
+            });
+          })
+          .catch(function(error) {
+            console.log('[PWA] SW registration failed:', error);
+          });
+
+        // Listen for messages from SW
+        navigator.serviceWorker.addEventListener('message', function(event) {
+          if (event.data === 'NEW_VERSION') {
+            showUpdateToast();
+          }
+        });
+
+        // Check for updates periodically
+        setInterval(function() {
+          navigator.serviceWorker.ready.then(function(registration) {
+            registration.update();
+          });
+        }, 60000); // Check every minute
+      }
+
+      // Show update toast
+      window.showUpdateToast = function() {
+        const toast = document.getElementById('update-toast');
+        if (toast) {
+          toast.classList.add('show');
+        }
+      };
+
+      // Refresh page
+      window.refreshPage = function() {
+        sessionStorage.setItem('force-sw-refresh', 'true');
+        window.location.reload();
+      };
+
+      // Detect Ctrl+F5 / Cmd+Shift+R
+      document.addEventListener('keydown', function(e) {
+        if ((e.ctrlKey || e.metaKey) && e.key === 'F5') {
+          e.preventDefault();
+          sessionStorage.setItem('force-sw-refresh', 'true');
+          window.location.reload(true);
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
