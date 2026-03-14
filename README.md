@@ -42,7 +42,7 @@ Student developer building simple, focused tools with AI assistance.
 
 | Project | Description |
 |---------|-------------|
-| ⏱️ **[ESP32 Pomodoro Button](https://github.com/QQSHI13/esp32-pomodoro-button)** | Standalone hardware Pomodoro timer with RGB LED, buzzer, and USB sync |
+| ⏱️ **[M5Timer](https://github.com/QQSHI13/M5Timer)** | Standalone hardware Pomodoro timer with M5Capsule, RGB LED, buzzer, and USB sync |
 | 🐍 **[Arduino Snake Game](https://github.com/QQSHI13/Arduino_Snake_Game)** | Classic snake game on Arduino (archived) |
 | 🚀 **[Micro:bit Spacecraft](https://github.com/QQSHI13/Micro-bit_Spacecraft_Game)** | Space shooter game on Micro:bit (archived) |
 | 🐍 **[Micro:bit Snake](https://github.com/QQSHI13/Micro-bit_Snake_Game)** | Snake game on Micro:bit (archived) |
