@@ -1,4 +1,6 @@
-# QQ's Tools
+# Shi Qingquan (施清荃) | @QQSHI13
+
+## call me qq
 
 [![GitHub followers](https://img.shields.io/github/followers/QQSHI13?style=social)](https://github.com/QQSHI13)
 [![Profile views](https://komarev.com/ghpvc/?username=QQSHI13&color=blue)](https://github.com/QQSHI13)
@@ -50,7 +52,7 @@ Student developer building simple, focused tools with AI assistance.
 ## 🔗 Links
 
 🌐 **Website:** [qqshi13.github.io/nova](https://qqshi13.github.io/nova/)  
-💝 **Support:** [afdian.com/a/QQSHI13](https://afdian.com/a/QQSHI13)
+💝 **Support:** [afdian (爱发电)](https://afdian.com/a/QQSHI13)
 
 ---
 
