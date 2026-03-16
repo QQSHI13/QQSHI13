@@ -5,7 +5,7 @@
 [![GitHub followers](https://img.shields.io/github/followers/QQSHI13?style=social)](https://github.com/QQSHI13)
 [![Profile views](https://komarev.com/ghpvc/?username=QQSHI13&color=blue)](https://github.com/QQSHI13)
 
-Student developer building simple, focused tools with AI assistance.
+Chinese student developer building simple, focused tools with AI assistance.
 
 ## 🛠️ Developer Tools
 
