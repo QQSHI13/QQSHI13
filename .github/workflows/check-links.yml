@@ -12,6 +12,9 @@ on:
 jobs:
   link-check:
     runs-on: ubuntu-latest
+    env:
+      # This removes the Node.js 20 deprecation warning
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -28,8 +31,6 @@ jobs:
           fail: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # This removes the Node.js 20 deprecation warning
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
       - name: Create issue on failure
         if: failure() && github.event_name == 'schedule'
