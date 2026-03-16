@@ -1,5 +1,9 @@
 name: Check Links
 
+env:
+  # This removes the Node.js 20 deprecation warning
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  
 on:
   push:
     branches: [main]
@@ -12,9 +16,6 @@ on:
 jobs:
   link-check:
     runs-on: ubuntu-latest
-    env:
-      # This removes the Node.js 20 deprecation warning
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
