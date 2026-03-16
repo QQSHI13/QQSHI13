@@ -15,19 +15,21 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
+        
       - name: Check links
-        uses: lycheeverse/lychee-action@v1
+        uses: lycheeverse/lychee-action@v2
         with:
           args: >
             --verbose
             --no-progress
             --timeout 30
-            --retry 3
+            --max-retries 3
             README.md
           fail: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # This removes the Node.js 20 deprecation warning
+          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
       - name: Create issue on failure
         if: failure() && github.event_name == 'schedule'
