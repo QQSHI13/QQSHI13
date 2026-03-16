@@ -23,7 +23,7 @@ jobs:
             --verbose
             --no-progress
             --timeout 30
-            ----retry-wait-time 3
+            --retry-wait-time 3
             README.md
           fail: true
         env:
