@@ -1,6 +1,7 @@
 # Shi Qingquan (施清荃) | @QQSHI13
+Student developer at China-Cuba Friendship Primary School building focused tools with AI assistance.
 
-## call me qq
+## just call me qq
 
 [![GitHub followers](https://img.shields.io/github/followers/QQSHI13?style=social)](https://github.com/QQSHI13)
 [![Profile views](https://komarev.com/ghpvc/?username=QQSHI13&color=blue)](https://github.com/QQSHI13)
