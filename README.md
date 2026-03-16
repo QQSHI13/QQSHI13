@@ -51,8 +51,8 @@ Chinese student developer building simple, focused tools with AI assistance.
 
 ## 🔗 Links
 
-🌐 **Website:** [qqshi13.github.io/nova](https://qqshi13.github.io/nova/)  
-💝 **Support:** [afdian (爱发电)](https://ifdian.net/a/QQSHI13)
+🌐 **Website:** [qqshi13.github.io](https://qqshi13.github.io/)  
+💝 **Support:** [afdian (爱发电)](https://afdian.net/a/QQSHI13)
 
 ---
 
