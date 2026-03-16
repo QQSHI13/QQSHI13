@@ -12,14 +12,14 @@ Chinese student developer building simple, focused tools with AI assistance.
 | Tool | Description | Live |
 |------|-------------|------|
 | ⏱️ **[Flow](https://github.com/QQSHI13/flow)** | Pomodoro timer with progress ring | [Live](https://qqshi13.github.io/flow/) |
-| ⚡ **[API Tester](https://github.com/QQSHI13/tools-suite/tree/main/api-tester)** | HTTP client in browser | [Live](https://qqshi13.github.io/tools-suite/api-tester/) |
-| 🌳 **[JSON Visualizer](https://github.com/QQSHI13/tools-suite/tree/main/json-viewer)** | Collapsible tree viewer | [Live](https://qqshi13.github.io/tools-suite/json-viewer/) |
-| 🔍 **[Regex Tester](https://github.com/QQSHI13/tools-suite/tree/main/regex-tester)** | Live pattern matching | [Live](https://qqshi13.github.io/tools-suite/regex-tester/) |
-| 🔑 **[JWT Decoder](https://github.com/QQSHI13/tools-suite/tree/main/jwt-decoder)** | Inspect JSON Web Tokens | [Live](https://qqshi13.github.io/tools-suite/jwt-decoder/) |
-| 📊 **[CSV to JSON](https://github.com/QQSHI13/tools-suite/tree/main/csv-json)** | Transform data instantly | [Live](https://qqshi13.github.io/tools-suite/csv-json/) |
-| 📑 **[Diff Viewer](https://github.com/QQSHI13/tools-suite/tree/main/diff-viewer)** | Compare text/code side-by-side | [Live](https://qqshi13.github.io/tools-suite/diff-viewer/) |
-| 🎨 **[Color Picker Plus](https://github.com/QQSHI13/tools-suite/tree/main/color-picker-plus)** | Advanced color picker with palette tools | [Live](https://qqshi13.github.io/tools-suite/color-picker-plus/) |
-| ⌨️ **[Keycode Logger](https://github.com/QQSHI13/tools-suite/tree/main/keycode-logger)** | Visual keyboard event display | [Live](https://qqshi13.github.io/tools-suite/keycode-logger/) |
+| ⚡ **[API Tester](https://github.com/QQSHI13/tools-suite)** | HTTP client in browser | [Live](https://qqshi13.github.io/tools-suite/api-tester/) |
+| 🌳 **[JSON Visualizer](https://github.com/QQSHI13/tools-suite)** | Collapsible tree viewer | [Live](https://qqshi13.github.io/tools-suite/json-viewer/) |
+| 🔍 **[Regex Tester](https://github.com/QQSHI13/tools-suite)** | Live pattern matching | [Live](https://qqshi13.github.io/tools-suite/regex-tester/) |
+| 🔑 **[JWT Decoder](https://github.com/QQSHI13/tools-suite)** | Inspect JSON Web Tokens | [Live](https://qqshi13.github.io/tools-suite/jwt-decoder/) |
+| 📊 **[CSV to JSON](https://github.com/QQSHI13/tools-suite)** | Transform data instantly | [Live](https://qqshi13.github.io/tools-suite/csv-json/) |
+| 📑 **[Diff Viewer](https://github.com/QQSHI13/tools-suite)** | Compare text/code side-by-side | [Live](https://qqshi13.github.io/tools-suite/diff-viewer/) |
+| 🎨 **[Color Picker Plus](https://github.com/QQSHI13/tools-suite)** | Advanced color picker with palette tools | [Live](https://qqshi13.github.io/tools-suite/color-picker-plus/) |
+| ⌨️ **[Keycode Logger](https://github.com/QQSHI13/tools-suite)** | Visual keyboard event display | [Live](https://qqshi13.github.io/tools-suite/keycode-logger/) |
 
 ## 🎨 Interactive
 
@@ -32,7 +32,7 @@ Chinese student developer building simple, focused tools with AI assistance.
 
 | App | Description |
 |-----|-------------|
-| 📝 **[Quick Notes Extension](https://github.com/QQSHI13/quick-notes-extension)** | Command Palette extension for quick note-taking |
+| 📝 **[Quick Notes Extension](https://github.com/QQSHI13/quick-notes)** | Command Palette extension for quick note-taking |
 
 ## 📦 Other Projects
 
