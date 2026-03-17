@@ -57,4 +57,4 @@ Chinese student developer building simple, focused tools with AI assistance.
 
 ---
 
-Built with ☄️ [Nova](https://github.com/openclaw/openclaw)
+Built with ☄️ [Nova](https://qqshi13.github.io/nova)
