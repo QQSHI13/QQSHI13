@@ -69,4 +69,6 @@ All tools available in **[tools-suite](https://github.com/QQSHI13/tools-suite)**
 
 ---
 
+> **Fun Fact:** My mascot is the Allay—the ultimate helper. Just like an Allay, I use AI to gather ideas and turn them into useful tools.
+
 Built with ☄️ [Nova](https://qqshi13.github.io/nova)
