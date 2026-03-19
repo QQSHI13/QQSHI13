@@ -1,74 +1,62 @@
-# Shi Qingquan (施清荃) | @QQSHI13
 
-Student developer at China-Cuba Friendship Primary School building focused tools with AI assistance.
+# Hi, I'm QQ! 👋
 
-## just call me qq
+## 施清荃 — 12-year-old developer building tools with AI
 
-[![GitHub followers](https://img.shields.io/github/followers/QQSHI13?style=social)](https://github.com/QQSHI13)
-[![Profile views](https://komarev.com/ghpvc/?username=QQSHI13&color=blue)](https://github.com/QQSHI13)
+I'm a young developer who loves creating web tools, desktop apps, and hardware projects. I believe in building things that solve real problems and sharing knowledge with the community.
 
-Chinese student developer building simple, focused tools with AI assistance.
+### 🛠️ What I Build
 
-## 🆕 Recently Completed
+- **Web Tools** — Productivity apps, utilities, and experiments
+- **Desktop Apps** — Windows Command Palette extensions
+- **Hardware** — ESP32 projects, IoT devices, and embedded systems
+- **Open Source** — Everything I make is open source (GPL-3.0)
 
-| Project | Description | When |
+### 🧰 Tech Stack
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![ESP32](https://img.shields.io/badge/-ESP32-E7352C?style=flat-square)
+
+### 🌟 Featured Projects
+
+| Project | Description | Tech |
 |---------|-------------|------|
-| 🎯 **[M5Timer](https://github.com/QQSHI13/M5Timer)** | Standalone hardware Pomodoro timer with M5Capsule, RGB LED, buzzer, and USB sync — Hackathon project | Mar 2026 |
+| [⏱️ Flow](https://qqshi13.github.io/flow/) | Pomodoro timer with PWA support | JavaScript, PWA |
+| [📦 DropTransfer](https://qqshi13.github.io/droptransfer/) | P2P file sharing with WebRTC | WebRTC, JavaScript |
+| [⏲️ M5Timer](https://github.com/QQSHI13/M5Timer) | Hardware Pomodoro timer | C++, ESP32 |
+| [🎨 CollaBoard](https://qqshi13.github.io/collaboard/) | Collaborative whiteboard | WebRTC, Canvas |
+| [🦠 LifeLab](https://qqshi13.github.io/lifelab/) | Conway's Game of Life simulator | JavaScript, Canvas |
 
-## 🛠️ Developer Tools
+### 📊 GitHub Stats
 
-All tools available in **[tools-suite](https://github.com/QQSHI13/tools-suite)** — my main tools collection:
+![QQ's GitHub Stats](https://github-readme-stats.vercel.app/api?username=QQSHI13&show_icons=true&theme=dark)
 
-| Tool | Description | Live |
-|------|-------------|------|
-| ⚡ **API Tester** | HTTP client in browser | [Live](https://qqshi13.github.io/tools-suite/api-tester/) |
-| 🌳 **JSON Visualizer** | Collapsible tree viewer | [Live](https://qqshi13.github.io/tools-suite/json-viewer/) |
-| 🔍 **Regex Tester** | Live pattern matching | [Live](https://qqshi13.github.io/tools-suite/regex-tester/) |
-| 🔑 **JWT Decoder** | Inspect JSON Web Tokens | [Live](https://qqshi13.github.io/tools-suite/jwt-decoder/) |
-| 📊 **CSV to JSON** | Transform data instantly | [Live](https://qqshi13.github.io/tools-suite/csv-json/) |
-| 📑 **Diff Viewer** | Compare text/code side-by-side | [Live](https://qqshi13.github.io/tools-suite/diff-viewer/) |
-| 🎨 **Color Picker Plus** | Advanced color picker with palette tools | [Live](https://qqshi13.github.io/tools-suite/color-picker-plus/) |
-| ⌨️ **Keycode Logger** | Visual keyboard event display | [Live](https://qqshi13.github.io/tools-suite/keycode-logger/) |
-| 🌐 **More Tools** | Browse the complete collection | [Live](https://qqshi13.github.io/tools-suite/) |
+### 🌐 Connect With Me
 
-## 🎯 Productivity
+- 🌎 **Website:** [qqshi13.github.io](https://qqshi13.github.io)
+- 🐦 **GitHub:** [@QQSHI13](https://github.com/QQSHI13)
+- 📧 **Email:** {your email}
+- 🏆 **Google Developers:** [g.dev/QQSHI13](https://g.dev/QQSHI13)
 
-| Tool | Description | Live |
-|------|-------------|------|
-| ⏱️ **[Flow](https://github.com/QQSHI13/flow)** | Pomodoro timer with progress ring | [Live](https://qqshi13.github.io/flow/) |
-| 📝 **[Quick Notes Extension](https://github.com/QQSHI13/quick-notes)** | Command Palette extension for quick note-taking on Windows | [v0.0.2.0](https://github.com/QQSHI13/quick-notes/releases) |
+### 🎯 Currently Learning
 
-## 🎨 Interactive Experiments
+- 🦀 **Rust** — Systems programming and WebAssembly
+- 🧠 **AI/ML** — LLMs, fine-tuning, and agent systems  
+- 🔧 **Embedded** — Advanced ESP32 and IoT projects
 
-| Project | Description | Live |
-|---------|-------------|------|
-| 🔬 **[LifeLab](https://github.com/QQSHI13/lifelab)** | Conway's Game of Life simulator | [Live](https://qqshi13.github.io/lifelab/) |
-| 🎨 **[CollaBoard](https://github.com/QQSHI13/collaboard)** | Real-time collaborative whiteboard | [Live](https://qqshi13.github.io/collaboard/) |
-| 🤖 **[Nova](https://github.com/QQSHI13/nova)** | AI assistant interface and project landing page | [Live](https://qqshi13.github.io/nova/) |
+### 📝 Latest Blog Posts
 
-## 📦 Utilities
-
-| Project | Description |
-|---------|-------------|
-| 📦 **[DropTransfer](https://github.com/QQSHI13/droptransfer)** | P2P file sharing in the browser |
-| 🌐 **[QQSHI13.github.io](https://github.com/QQSHI13/QQSHI13.github.io)** | Personal website and project hub |
-
-## 🎮 Hardware
-
-| Project | Description | Status |
-|---------|-------------|--------|
-| 🎯 **[M5Timer](https://github.com/QQSHI13/M5Timer)** | Standalone hardware Pomodoro timer with M5Capsule, RGB LED, buzzer, and USB sync | ✅ Complete |
-| 🐍 **[Arduino Snake Game](https://github.com/QQSHI13/Arduino_Snake_Game)** | Classic snake game on Arduino | 📦 Archived |
-| 🚀 **[Micro:bit Spacecraft](https://github.com/QQSHI13/Micro-bit_Spacecraft_Game)** | Space shooter game on Micro:bit | 📦 Archived |
-| 🐍 **[Micro:bit Snake](https://github.com/QQSHI13/Micro-bit_Snake_Game)** | Snake game on Micro:bit | 📦 Archived |
-
-## 🔗 Links
-
-🌐 **Website:** [qqshi13.github.io](https://qqshi13.github.io/)  
-💝 **Support:** [afdian (爱发电)](https://ifdian.net/a/QQSHI13)
+<!-- BLOG-POST-LIST:START -->
+- [Coming soon!]
+<!-- BLOG-POST-LIST:END -->
 
 ---
 
-> **Fun Fact:** My mascot is the Allay—the ultimate helper. Just like an Allay, I use AI to gather ideas and turn them into useful tools.
+**💡 Assisted by [Nova ☄️](https://openclaw.ai) — my AI pair programmer**
 
-Built with ☄️ [Nova](https://qqshi13.github.io/nova)
+*Powered by [OpenClaw](https://openclaw.ai)*
