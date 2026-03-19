@@ -40,7 +40,7 @@ I'm a young developer who loves creating web tools, desktop apps, and hardware p
 
 - 🌎 **Website:** [qqshi13.github.io](https://qqshi13.github.io)
 - 🐦 **GitHub:** [@QQSHI13](https://github.com/QQSHI13)
-- 📧 **Email:** {your email}
+- 📧 **Email:** shizheng327@gmail.com
 - 🏆 **Google Developers:** [g.dev/QQSHI13](https://g.dev/QQSHI13)
 
 ### 🎯 Currently Learning
