@@ -57,6 +57,6 @@ I'm a young developer who loves creating web tools, desktop apps, and hardware p
 
 ---
 
-**💡 Assisted by [Nova ☄️](https://openclaw.ai) — my AI pair programmer**
+**💡 Assisted by [Nova ☄️](https://qqshi13.github.io/nova/) — my AI pair programmer**
 
 *Powered by [OpenClaw](https://openclaw.ai)*
