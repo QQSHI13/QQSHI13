@@ -1,7 +1,8 @@
 // QQSHI13 Profile PWA Service Worker
 // Minimal SW that caches README for offline viewing
 
-const CACHE_NAME = 'qqshi13-profile-v1';
+const CACHE_VERSION = '1.0.0';
+const CACHE_NAME = `qqshi13-profile-v${CACHE_VERSION}`;
 const urlsToCache = [
   '/',
   '/README.md',
