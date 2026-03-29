@@ -26,15 +26,18 @@ I'm a young developer who loves creating web tools, desktop apps, and hardware p
 
 | Project | Description | Tech |
 |---------|-------------|------|
+| [🧰 Tools Suite](https://qqshi13.github.io/tools-suite/) | Collection of 9+ developer tools | JavaScript |
 | [⏱️ Flow](https://qqshi13.github.io/flow/) | Pomodoro timer with PWA support | JavaScript, PWA |
 | [📦 DropTransfer](https://qqshi13.github.io/droptransfer/) | P2P file sharing with WebRTC | WebRTC, JavaScript |
 | [⏲️ M5Timer](https://github.com/QQSHI13/M5Timer) | Hardware Pomodoro timer | C++, ESP32 |
 | [🎨 CollaBoard](https://qqshi13.github.io/collaboard/) | Collaborative whiteboard | WebRTC, Canvas |
 | [🦠 LifeLab](https://qqshi13.github.io/lifelab/) | Conway's Game of Life simulator | JavaScript, Canvas |
+| [📝 Quick Notes](https://github.com/QQSHI13/quick-notes) | Windows Command Palette extension | C# |
 
-### 📊 GitHub Stats
+### 📊 GitHub Activity
 
-![QQ's GitHub Stats](https://github-readme-stats.vercel.app/api?username=QQSHI13&show_icons=true&theme=dark)
+<!-- Using GitHub activity graph -->
+[![QQ's GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=QQSHI13&theme=github-compact)](https://github.com/QQSHI13)
 
 ### 🌐 Connect With Me
 
