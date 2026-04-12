@@ -44,7 +44,6 @@ I'm a young developer who loves creating web tools, desktop apps, and hardware p
 - 🌎 **Website:** [qqshi13.github.io](https://qqshi13.github.io)
 - 🐦 **GitHub:** [@QQSHI13](https://github.com/QQSHI13)
 - 📧 **Email:** shizheng327@gmail.com
-- 🏆 **Google Developers:** [g.dev/QQSHI13](https://g.dev/QQSHI13)
 
 ### 🎯 Currently Learning
 
@@ -52,14 +51,8 @@ I'm a young developer who loves creating web tools, desktop apps, and hardware p
 - 🧠 **AI/ML** — LLMs, fine-tuning, and agent systems  
 - 🔧 **Embedded** — Advanced ESP32 and IoT projects
 
-### 📝 Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-- [Coming soon!]
-<!-- BLOG-POST-LIST:END -->
-
 ---
 
-**💡 Assisted by [Nova ☄️](https://qqshi13.github.io/nova/) — my AI pair programmer**
+**💡 Assisted by Nova ☄️ — my AI pair programmer**
 
 *Powered by [OpenClaw](https://openclaw.ai)*
