@@ -27,7 +27,6 @@ I'm a young developer who loves creating web tools, desktop apps, and hardware p
 | Project | Description | Tech |
 |---------|-------------|------|
 | [🧰 Tools Suite](https://qqshi13.github.io/tools-suite/) | Collection of 9+ developer tools | JavaScript |
-| [🎯 24 Point Solver](https://qqshi13.github.io/24.html) | Math puzzle game — make 24 using four numbers | JavaScript |
 | [⏱️ Flow](https://qqshi13.github.io/flow/) | Pomodoro timer with PWA support | JavaScript, PWA |
 | [📦 DropTransfer](https://qqshi13.github.io/droptransfer/) | P2P file sharing with WebRTC | WebRTC, JavaScript |
 | [⏲️ M5Timer](https://github.com/QQSHI13/M5Timer) | Hardware Pomodoro timer | C++, ESP32 |
