@@ -1,81 +1,84 @@
-// QQSHI13 Profile PWA Service Worker
-// Minimal SW that caches README for offline viewing
+/**
+ * QQSHI13 Profile Service Worker
+ * Network-first for HTML, cache-first for assets
+ */
 
-const CACHE_VERSION = '1.0.0';
-const CACHE_NAME = `qqshi13-profile-v${CACHE_VERSION}`;
+const CACHE_NAME = 'qqshi13-profile-v2';
 const urlsToCache = [
   '/',
-  '/README.md',
-  '/LICENSE'
+  '/index.html',
+  '/README.md'
 ];
 
-// Install event - cache assets
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME)
-      .then((cache) => {
-        console.log('[SW] Cache opened');
-        return cache.addAll(urlsToCache);
-      })
-      .catch((err) => {
-        console.log('[SW] Cache failed:', err);
-      })
+      .then((cache) => cache.addAll(urlsToCache))
+      .then(() => self.skipWaiting())
   );
-  self.skipWaiting();
 });
 
-// Activate event - clean old caches
 self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(
         cacheNames
           .filter((name) => name !== CACHE_NAME)
-          .map((name) => {
-            console.log('[SW] Deleting old cache:', name);
-            return caches.delete(name);
-          })
+          .map((name) => caches.delete(name))
       );
-    })
+    }).then(() => self.clients.claim())
   );
-  self.clients.claim();
 });
 
-// Fetch event - serve from cache, fallback to network
 self.addEventListener('fetch', (event) => {
-  event.respondWith(
-    caches.match(event.request)
-      .then((response) => {
-        // Return cached version or fetch from network
-        if (response) {
-          return response;
-        }
-        return fetch(event.request)
+  if (event.request.method !== 'GET') return;
+
+  const isHTML = event.request.mode === 'navigate' || 
+                 event.request.destination === 'document' ||
+                 event.request.url.endsWith('.html');
+
+  if (isHTML) {
+    // Network-first for HTML pages
+    event.respondWith(
+      fetch(event.request)
+        .then((networkResponse) => {
+          if (networkResponse && networkResponse.status === 200) {
+            const responseClone = networkResponse.clone();
+            caches.open(CACHE_NAME).then((cache) => {
+              cache.put(event.request, responseClone);
+            });
+          }
+          return networkResponse;
+        })
+        .catch(() => {
+          return caches.match(event.request)
+            .then((cached) => cached || caches.match('/index.html'));
+        })
+    );
+  } else {
+    // Cache-first for assets
+    event.respondWith(
+      caches.match(event.request).then((cachedResponse) => {
+        const fetchPromise = fetch(event.request)
           .then((networkResponse) => {
-            // Don't cache non-success responses
-            if (!networkResponse || networkResponse.status !== 200) {
-              return networkResponse;
-            }
-            // Cache new GET requests
-            if (event.request.method === 'GET') {
-              const responseToCache = networkResponse.clone();
+            if (networkResponse && networkResponse.status === 200) {
+              const responseClone = networkResponse.clone();
               caches.open(CACHE_NAME).then((cache) => {
-                cache.put(event.request, responseToCache);
+                cache.put(event.request, responseClone);
               });
             }
             return networkResponse;
           })
-          .catch(() => {
-            // Network failed, return offline fallback if available
-            console.log('[SW] Network failed for:', event.request.url);
-          });
+          .catch(() => cachedResponse);
+
+        return cachedResponse || fetchPromise;
       })
-  );
+    );
+  }
 });
 
-// Message handler for skipWaiting and auto-refresh
 self.addEventListener('message', (event) => {
-  if (event.data === 'SKIP_WAITING') {
+  if (event.data === 'skipWaiting' || event.data === 'SKIP_WAITING') {
     self.skipWaiting();
   }
 });
