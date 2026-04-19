@@ -45,6 +45,7 @@ I'm a young developer who loves creating web tools, desktop apps, and hardware p
 - 🌎 **Website:** [qqshi13.github.io](https://qqshi13.github.io)
 - 🐦 **GitHub:** [@QQSHI13](https://github.com/QQSHI13)
 - 📧 **Email:** shizheng327@gmail.com
+- 💬 **Start a Discussion:** [Create a discussion](https://github.com/QQSHI13/QQSHI13/discussions/new) — Ask questions, share ideas, or just say hi!
 
 ### 🎯 Currently Learning
 
