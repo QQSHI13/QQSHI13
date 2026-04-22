@@ -1,8 +1,8 @@
 # Hi, I'm QQ (施清荃) 👋
 
-**13-year-old developer** building tools with AI assistance. I create web apps, desktop software, Minecraft mods, and hardware projects — all open source.
+**12-year-old developer** building tools with AI assistance. I create web apps, desktop software, Minecraft mods, and hardware projects — all open source.
 
-> 💡 **AI-powered workflow**: Every project is built with [Nova ☄️](https://openclaw.ai), my AI pair programmer
+> 💡 **AI-powered workflow**: Every project is built with Nova ☄️, my AI pair programmer running on OpenClaw
 
 ---
 
@@ -104,6 +104,6 @@
 
 ---
 
-**Built with ☄️ [Nova](https://openclaw.ai) — AI pair programmer**
+**Built with ☄️ Nova — AI pair programmer running on OpenClaw**
 
 *All projects licensed under GPL-3.0*
