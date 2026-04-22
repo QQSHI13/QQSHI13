@@ -7,69 +7,209 @@
  window.dataLayer = window.dataLayer || [];
  function gtag(){dataLayer.push(arguments);}
  gtag('js', new Date());
-
  gtag('config', 'G-3PSNCFVT76');
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QQSHI13 - Developer Profile</title>
-  <meta name="description" content="Student developer building simple, focused tools with AI assistance.">
+  <title>QQSHI13 — Developer & Creator</title>
+  <meta name="description" content="13-year-old developer building web tools, desktop apps, Minecraft mods, and hardware projects with AI assistance.">
   
-  <!-- PWA Manifest -->
+  <!-- PWA -->
   <link rel="manifest" href="/manifest.json">
-  <meta name="theme-color" content="#58a6ff">
+  <meta name="theme-color" content="#0d1117">
   
   <!-- Icons -->
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%2358a6ff'/%3E%3Ctext x='50' y='65' font-size='50' text-anchor='middle' fill='white'%3EQQ%3C/text%3E%3C/svg%3E">
   
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
+    :root {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --surface-hover: #21262d;
+      --border: #30363d;
+      --text: #c9d1d9;
+      --text-secondary: #8b949e;
+      --accent: #58a6ff;
+      --accent-hover: #79b8ff;
+      --success: #238636;
+      --warning: #d29922;
     }
+    
+    * { margin: 0; padding: 0; box-sizing: border-box; }
     
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
-      background-color: #0d1117;
-      color: #c9d1d9;
+      background: var(--bg);
+      color: var(--text);
       line-height: 1.6;
       min-height: 100vh;
     }
     
     .container {
-      max-width: 900px;
+      max-width: 960px;
       margin: 0 auto;
       padding: 40px 20px;
     }
     
-    h1 {
-      color: #e6edf3;
-      margin-bottom: 16px;
-      font-size: 2rem;
+    /* Header */
+    .header {
+      text-align: center;
+      padding: 40px 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 40px;
     }
     
+    .avatar {
+      width: 80px;
+      height: 80px;
+      background: var(--accent);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+      font-weight: bold;
+      color: white;
+      margin: 0 auto 16px;
+    }
+    
+    .header h1 {
+      font-size: 2rem;
+      color: #e6edf3;
+      margin-bottom: 8px;
+    }
+    
+    .header .subtitle {
+      color: var(--text-secondary);
+      font-size: 1.1rem;
+    }
+    
+    .header .ai-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(88, 166, 255, 0.1);
+      color: var(--accent);
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      margin-top: 12px;
+    }
+    
+    /* Sections */
     h2 {
       color: #e6edf3;
-      margin: 32px 0 16px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid #30363d;
-      font-size: 1.5rem;
+      margin: 40px 0 20px;
+      font-size: 1.4rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
     
-    p {
-      margin: 16px 0;
+    h2:first-of-type {
+      margin-top: 0;
     }
     
-    a {
-      color: #58a6ff;
+    /* Project Cards */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 16px;
+      margin: 20px 0;
+    }
+    
+    .project-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      transition: all 0.2s ease;
+    }
+    
+    .project-card:hover {
+      border-color: var(--accent);
+      background: var(--surface-hover);
+    }
+    
+    .project-card h3 {
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+      color: #e6edf3;
+    }
+    
+    .project-card h3 a {
+      color: inherit;
       text-decoration: none;
     }
     
-    a:hover {
-      text-decoration: underline;
+    .project-card h3 a:hover {
+      color: var(--accent);
     }
     
+    .project-card p {
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+      margin-bottom: 12px;
+    }
+    
+    .project-card .links {
+      display: flex;
+      gap: 12px;
+      font-size: 0.85rem;
+    }
+    
+    .project-card .links a {
+      color: var(--accent);
+    }
+    
+    .project-card .links a:hover {
+      color: var(--accent-hover);
+    }
+    
+    .project-card .tags {
+      display: flex;
+      gap: 6px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+    }
+    
+    .tag {
+      background: rgba(88, 166, 255, 0.1);
+      color: var(--accent);
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+    }
+    
+    /* Stats row */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 16px;
+      margin: 20px 0;
+    }
+    
+    .stat-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      text-align: center;
+    }
+    
+    .stat-box .number {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: var(--accent);
+    }
+    
+    .stat-box .label {
+      color: var(--text-secondary);
+      font-size: 0.85rem;
+      margin-top: 4px;
+    }
+    
+    /* Table (legacy) */
     table {
       width: 100%;
       border-collapse: collapse;
@@ -79,7 +219,7 @@
     th, td {
       padding: 12px;
       text-align: left;
-      border-bottom: 1px solid #30363d;
+      border-bottom: 1px solid var(--border);
     }
     
     th {
@@ -88,32 +228,45 @@
     }
     
     tr:hover {
-      background-color: #161b22;
+      background-color: var(--surface-hover);
     }
     
-    .badges {
-      margin: 16px 0;
+    a {
+      color: var(--accent);
+      text-decoration: none;
     }
     
-    .badges img {
-      margin-right: 8px;
-      vertical-align: middle;
+    a:hover {
+      color: var(--accent-hover);
+      text-decoration: underline;
     }
     
     hr {
       border: none;
-      border-top: 1px solid #30363d;
-      margin: 24px 0;
+      border-top: 1px solid var(--border);
+      margin: 32px 0;
     }
     
+    footer {
+      text-align: center;
+      color: var(--text-secondary);
+      padding: 40px 0 20px;
+      font-size: 0.9rem;
+    }
+    
+    footer a {
+      color: var(--accent);
+    }
+    
+    /* Update toast */
     .update-toast {
       position: fixed;
       bottom: 20px;
       right: 20px;
-      background: #238636;
+      background: var(--success);
       color: white;
       padding: 12px 20px;
-      border-radius: 6px;
+      border-radius: 8px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.3);
       display: none;
       align-items: center;
@@ -127,19 +280,13 @@
     }
     
     @keyframes slideIn {
-      from {
-        transform: translateY(100px);
-        opacity: 0;
-      }
-      to {
-        transform: translateY(0);
-        opacity: 1;
-      }
+      from { transform: translateY(100px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
     }
     
     .update-btn {
       background: white;
-      color: #238636;
+      color: var(--success);
       border: none;
       padding: 6px 12px;
       border-radius: 4px;
@@ -147,272 +294,247 @@
       font-weight: 600;
     }
     
-    .update-btn:hover {
-      background: #f0f0f0;
-    }
-    
     @media (max-width: 600px) {
-      .container {
-        padding: 20px 16px;
-      }
-      
-      h1 {
-        font-size: 1.5rem;
-      }
-      
-      table {
-        font-size: 14px;
-      }
-      
-      th, td {
-        padding: 8px;
-      }
+      .container { padding: 20px 16px; }
+      .header h1 { font-size: 1.5rem; }
+      .projects-grid { grid-template-columns: 1fr; }
+      .stats-row { grid-template-columns: repeat(2, 1fr); }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>QQ's Tools</h1>
-    
-    <div class="badges">
-      <a href="https://github.com/QQSHI13"><img src="https://img.shields.io/github/followers/QQSHI13?style=social" alt="GitHub followers"></a>
-      <a href="https://github.com/QQSHI13"><img src="https://komarev.com/ghpvc/?username=QQSHI13&color=blue" alt="Profile views"></a>
+    <!-- Header -->
+    <div class="header">
+      <div class="avatar">QQ</div>
+      <h1>QQSHI13</h1>
+      <p class="subtitle">13-year-old developer building tools with AI</p>
+      <div class="ai-badge">
+        <span>☄️</span>
+        <span>Powered by Nova — AI pair programmer</span>
+      </div>
     </div>
     
-    <p>Student developer building simple, focused tools with AI assistance.</p>
+    <!-- Quick Stats -->
+    <div class="stats-row">
+      <div class="stat-box">
+        <div class="number">15+</div>
+        <div class="label">Open Source Projects</div>
+      </div>
+      <div class="stat-box">
+        <div class="number">9+</div>
+        <div class="label">Live Web Tools</div>
+      </div>
+      <div class="stat-box">
+        <div class="number">3</div>
+        <div class="label">Hardware Projects</div>
+      </div>
+      <div class="stat-box">
+        <div class="number">1</div>
+        <div class="label">Published Skill</div>
+      </div>
+    </div>
+
+    <!-- Featured Web Tools -->
+    <h2>🌐 Web Tools</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3><a href="https://qqshi13.github.io/tools-suite/">🧰 Tools Suite</a></h3>
+        <p>9+ developer utilities: API tester, JSON viewer, regex tester, JWT decoder, and more</p>
+        <div class="links">
+          <a href="https://qqshi13.github.io/tools-suite/">Live</a>
+          <a href="https://github.com/QQSHI13/tools-suite">GitHub</a>
+        </div>
+        <div class="tags">
+          <span class="tag">JavaScript</span>
+          <span class="tag">PWA</span>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <h3><a href="https://qqshi13.github.io/droptransfer/">📦 DropTransfer</a></h3>
+        <p>P2P file sharing directly in browser. WebRTC with heartbeat monitoring & integrity verification</p>
+        <div class="links">
+          <a href="https://qqshi13.github.io/droptransfer/">Live</a>
+          <a href="https://github.com/QQSHI13/droptransfer">GitHub</a>
+        </div>
+        <div class="tags">
+          <span class="tag">WebRTC</span>
+          <span class="tag">PWA</span>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <h3><a href="https://qqshi13.github.io/collaboard/">🎨 CollaBoard</a></h3>
+        <p>Real-time collaborative whiteboard with WebRTC sync</p>
+        <div class="links">
+          <a href="https://qqshi13.github.io/collaboard/">Live</a>
+          <a href="https://github.com/QQSHI13/collaboard">GitHub</a>
+        </div>
+        <div class="tags">
+          <span class="tag">WebRTC</span>
+          <span class="tag">Canvas</span>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <h3><a href="https://qqshi13.github.io/flow/">⏱️ Flow</a></h3>
+        <p>Pomodoro timer with progress ring and PWA support</p>
+        <div class="links">
+          <a href="https://qqshi13.github.io/flow/">Live</a>
+          <a href="https://github.com/QQSHI13/flow">GitHub</a>
+        </div>
+        <div class="tags">
+          <span class="tag">PWA</span>
+          <span class="tag">Timer</span>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <h3><a href="https://qqshi13.github.io/lifelab/">🦠 LifeLab</a></h3>
+        <p>Conway's Game of Life simulator with infinite canvas</p>
+        <div class="links">
+          <a href="https://qqshi13.github.io/lifelab/">Live</a>
+          <a href="https://github.com/QQSHI13/lifelab">GitHub</a>
+        </div>
+        <div class="tags">
+          <span class="tag">Canvas</span>
+          <span class="tag">Simulation</span>
+        </div>
+      </div>
+    </div>
     
-    <h2>🛠️ Developer Tools</h2>
+    <!-- Desktop & Apps -->
+    <h2>💻 Desktop & Apps</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3><a href="https://github.com/QQSHI13/quick-notes">📝 Quick Notes</a></h3>
+        <p>Windows Command Palette extension for instant note-taking</p>
+        <div class="links">
+          <a href="https://github.com/QQSHI13/quick-notes">GitHub</a>
+        </div>
+        <div class="tags">
+          <span class="tag">C#</span>
+          <span class="tag">Microsoft Store</span>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <h3><a href="https://github.com/QQSHI13/droptransfer-cli">📦 DropTransfer CLI</a></h3>
+        <p>Terminal file sharing via WebRTC — no browser needed</p>
+        <div class="links">
+          <a href="https://github.com/QQSHI13/droptransfer-cli">GitHub</a>
+        </div>
+        <div class="tags">
+          <span class="tag">Node.js</span>
+          <span class="tag">CLI</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Games & Mods -->
+    <h2>🎮 Games & Mods</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3><a href="https://github.com/QQSHI13/skylight-mod">🌅 Skylight Mod</a></h3>
+        <p>Minecraft Fabric 1.21 mod — peaceful mode, free camera, time pause, enhanced screenshots</p>
+        <div class="links">
+          <a href="https://github.com/QQSHI13/skylight-mod">GitHub</a>
+        </div>
+        <div class="tags">
+          <span class="tag">Java</span>
+          <span class="tag">Fabric</span>
+          <span class="tag">Minecraft</span>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <h3><a href="https://github.com/QQSHI13/battery-panic">🔋 Battery Panic</a></h3>
+        <p>Pixel art game about surviving low battery with real battery-saving tips</p>
+        <div class="links">
+          <a href="https://github.com/QQSHI13/battery-panic">GitHub</a>
+        </div>
+        <div class="tags">
+          <span class="tag">Godot</span>
+          <span class="tag">Game</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Hardware -->
+    <h2>🔌 Hardware & IoT</h2>
     <table>
       <thead>
-        <tr><th>Tool</th><th>Description</th><th>Live</th></tr>
+        <tr><th>Project</th><th>Description</th><th>Link</th></tr>
       </thead>
       <tbody>
         <tr>
-          <td>⏱️ <a href="https://github.com/QQSHI13/flow"><strong>Flow</strong></a></td>
-          <td>Pomodoro timer with progress ring</td>
-          <td><a href="https://qqshi13.github.io/flow/">Live</a></td>
+          <td>⏲️ <strong>M5Timer</strong></td>
+          <td>Physical Pomodoro timer with M5Capsule & LED ring</td>
+          <td><a href="https://github.com/QQSHI13/M5Timer">GitHub</a></td>
         </tr>
         <tr>
-          <td>⚡ <a href="https://github.com/QQSHI13/tools-suite/tree/main/api-tester"><strong>API Tester</strong></a></td>
-          <td>HTTP client in browser</td>
-          <td><a href="https://qqshi13.github.io/tools-suite/api-tester/">Live</a></td>
-        </tr>
-        <tr>
-          <td>🌳 <a href="https://github.com/QQSHI13/tools-suite/tree/main/json-viewer"><strong>JSON Visualizer</strong></a></td>
-          <td>Collapsible tree viewer</td>
-          <td><a href="https://qqshi13.github.io/tools-suite/json-viewer/">Live</a></td>
-        </tr>
-        <tr>
-          <td>🔍 <a href="https://github.com/QQSHI13/tools-suite/tree/main/regex-tester"><strong>Regex Tester</strong></a></td>
-          <td>Live pattern matching</td>
-          <td><a href="https://qqshi13.github.io/tools-suite/regex-tester/">Live</a></td>
-        </tr>
-        <tr>
-          <td>🔑 <a href="https://github.com/QQSHI13/tools-suite/tree/main/jwt-decoder"><strong>JWT Decoder</strong></a></td>
-          <td>Inspect JSON Web Tokens</td>
-          <td><a href="https://qqshi13.github.io/tools-suite/jwt-decoder/">Live</a></td>
-        </tr>
-        <tr>
-          <td>📊 <a href="https://github.com/QQSHI13/tools-suite/tree/main/csv-json"><strong>CSV to JSON</strong></a></td>
-          <td>Transform data instantly</td>
-          <td><a href="https://qqshi13.github.io/tools-suite/csv-json/">Live</a></td>
-        </tr>
-        <tr>
-          <td>📑 <a href="https://github.com/QQSHI13/tools-suite/tree/main/diff-viewer"><strong>Diff Viewer</strong></a></td>
-          <td>Compare text/code side-by-side</td>
-          <td><a href="https://qqshi13.github.io/tools-suite/diff-viewer/">Live</a></td>
-        </tr>
-        <tr>
-          <td>🎨 <a href="https://github.com/QQSHI13/tools-suite/tree/main/color-picker-plus"><strong>Color Picker Plus</strong></a></td>
-          <td>Advanced color picker with palette tools</td>
-          <td><a href="https://qqshi13.github.io/tools-suite/color-picker-plus/">Live</a></td>
-        </tr>
-        <tr>
-          <td>⌨️ <a href="https://github.com/QQSHI13/tools-suite/tree/main/keycode-logger"><strong>Keycode Logger</strong></a></td>
-          <td>Visual keyboard event display</td>
-          <td><a href="https://qqshi13.github.io/tools-suite/keycode-logger/">Live</a></td>
+          <td>🌈 <strong>AtomS3 Rainbow</strong></td>
+          <td>LED color demo for AtomS3 Lite</td>
+          <td><a href="https://github.com/QQSHI13/atoms3-rainbow">GitHub</a></td>
         </tr>
       </tbody>
     </table>
     
-    <h2>🎨 Interactive</h2>
-    <table>
-      <thead>
-        <tr><th>Project</th><th>Description</th><th>Live</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>🔬 <a href="https://github.com/QQSHI13/lifelab"><strong>LifeLab</strong></a></td>
-          <td>Conway's Game of Life simulator</td>
-          <td><a href="https://qqshi13.github.io/lifelab/">Live</a></td>
-        </tr>
-        <tr>
-          <td>🎨 <a href="https://github.com/QQSHI13/collaboard"><strong>CollaBoard</strong></a></td>
-          <td>Real-time collaborative whiteboard</td>
-          <td><a href="https://qqshi13.github.io/collaboard/">Live</a></td>
-        </tr>
-      </tbody>
-    </table>
+    <!-- Skills -->
+    <h2>🛠️ Published Skills</h2>
+    <div class="project-card">
+      <h3><a href="https://clawhub.com/skills/wincontrol">🖥️ WinControl</a></h3>
+      <p>AI remote control for Windows — HTTP API for screenshot capture, mouse/keyboard control</p>
+      <div class="links">
+        <a href="https://clawhub.com/skills/wincontrol">ClawHub</a>
+      </div>
+      <div class="tags">
+        <span class="tag">Python</span>
+        <span class="tag">OpenClaw</span>
+      </div>
+    </div>
+
+    <hr>
     
-    <h2>💻 Desktop Apps</h2>
-    <table>
-      <thead>
-        <tr><th>App</th><th>Description</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>📝 <a href="https://github.com/QQSHI13/quick-notes-extension"><strong>Quick Notes Extension</strong></a></td>
-          <td>Command Palette extension for quick note-taking</td>
-        </tr>
-      </tbody>
-    </table>
-    
-    <h2>📦 Other Projects</h2>
-    <table>
-      <thead>
-        <tr><th>Project</th><th>Description</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>📦 <a href="https://github.com/QQSHI13/droptransfer"><strong>DropTransfer</strong></a></td>
-          <td>P2P file sharing</td>
-        </tr>
-      </tbody>
-    </table>
-    
-    <h2>🎮 Hardware</h2>
-    <table>
-      <thead>
-        <tr><th>Project</th><th>Description</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>🎮 <a href="https://github.com/QQSHI13/M5Timer"><strong>M5Timer</strong></a></td>
-          <td>Hardware Pomodoro timer with M5Capsule</td>
-        </tr>
-        <tr>
-          <td>🐍 <a href="https://github.com/QQSHI13/Arduino_Snake_Game"><strong>Arduino Snake Game</strong></a></td>
-          <td>Classic snake game on Arduino</td>
-        </tr>
-        <tr>
-          <td>🚀 <a href="https://github.com/QQSHI13/Micro-bit_Spacecraft_Game"><strong>Micro:bit Spacecraft</strong></a></td>
-          <td>Space shooter game on Micro:bit</td>
-        </tr>
-        <tr>
-          <td>🐍 <a href="https://github.com/QQSHI13/Micro-bit_Snake_Game"><strong>Micro:bit Snake</strong></a></td>
-          <td>Snake game on Micro:bit</td>
-        </tr>
-      </tbody>
-    </table>
-    
-    <h2>🔗 Links</h2>
+    <!-- Links -->
+    <h2>🔗 Connect</h2>
     <p>
-      🌐 <strong>Website:</strong> <a href="https://qqshi13.github.io/">qqshi13.github.io</a><br>
+      🐦 <strong>GitHub:</strong> <a href="https://github.com/QQSHI13">@QQSHI13</a><br>
+      🌐 <strong>Website:</strong> <a href="https://qqshi13.github.io">qqshi13.github.io</a><br>
+      💬 <strong>Discussions:</strong> <a href="https://github.com/QQSHI13/QQSHI13/discussions">Start a conversation</a><br>
       💝 <strong>Support:</strong> <a href="https://afdian.com/a/QQSHI13">afdian.com/a/QQSHI13</a>
     </p>
     
-    <hr>
-    
-    <p>Built with ☄️ <a href="https://github.com/openclaw/openclaw">Nova</a></p>
+    <footer>
+      <p>Built with ☄️ <a href="https://openclaw.ai">Nova</a> — AI pair programmer</p>
+      <p style="margin-top: 8px; font-size: 0.8rem;">All projects licensed under GPL-3.0</p>
+    </footer>
   </div>
 
-  <!-- Update Toast Notification -->
+  <!-- Update Toast -->
   <div id="update-toast" class="update-toast">
     <span>🔄 New version available</span>
     <button class="update-btn" onclick="refreshPage()">Refresh</button>
   </div>
 
   <script>
-    // Service Worker Registration with Auto-refresh on Hard Reload
+    // Service Worker
     (function() {
-      'use strict';
-      
-      // Detect hard reload (Ctrl+F5 or Cmd+Shift+R) or manual force refresh
-      // Note: Browser security prevents reliably detecting hard reloads vs normal reloads
-      // We only trigger refresh logic when explicitly requested via force-sw-refresh flag
-      let isForceRefresh = sessionStorage.getItem('force-sw-refresh');
-      if (isForceRefresh) {
-        sessionStorage.removeItem('force-sw-refresh');
-      }
-
       if ('serviceWorker' in navigator) {
-        // Unregister existing SW on force refresh to clear caches
-        if (isForceRefresh) {
-          navigator.serviceWorker.getRegistrations().then(function(registrations) {
-            registrations.forEach(function(registration) {
-              registration.unregister().then(function() {
-                console.log('[PWA] SW unregistered for force refresh');
-                // Clear caches
-                if ('caches' in window) {
-                  caches.keys().then(function(cacheNames) {
-                    cacheNames.forEach(function(cacheName) {
-                      caches.delete(cacheName);
-                    });
-                  });
-                }
-              });
-            });
-          });
-          // Continue with normal SW registration without auto-reload
-        }
-
-        // Normal SW registration
         navigator.serviceWorker.register('/sw.js')
-          .then(function(registration) {
-            console.log('[PWA] SW registered:', registration.scope);
-            
-            // Watch for updates
-            registration.addEventListener('updatefound', function() {
-              const newWorker = registration.installing;
-              newWorker.addEventListener('statechange', function() {
-                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                  // New version available
-                  showUpdateToast();
-                }
-              });
-            });
-          })
-          .catch(function(error) {
-            console.log('[PWA] SW registration failed:', error);
-          });
-
-        // Listen for messages from SW
-        navigator.serviceWorker.addEventListener('message', function(event) {
-          if (event.data === 'NEW_VERSION') {
-            showUpdateToast();
-          }
-        });
-
-        // Check for updates periodically
-        setInterval(function() {
-          navigator.serviceWorker.ready.then(function(registration) {
-            registration.update();
-          });
-        }, 60000); // Check every minute
+          .then(reg => console.log('[PWA] SW registered:', reg.scope))
+          .catch(err => console.log('[PWA] SW failed:', err));
+        
+        // Check for updates
+        setInterval(() => {
+          navigator.serviceWorker.ready.then(reg => reg.update());
+        }, 60000);
       }
-
-      // Show update toast
-      window.showUpdateToast = function() {
-        const toast = document.getElementById('update-toast');
-        if (toast) {
-          toast.classList.add('show');
-        }
-      };
-
-      // Refresh page
+      
       window.refreshPage = function() {
-        sessionStorage.setItem('force-sw-refresh', 'true');
-        window.location.reload();
+        location.reload();
       };
-
-      // Detect Ctrl+F5 / Cmd+Shift+R
-      document.addEventListener('keydown', function(e) {
-        if ((e.ctrlKey || e.metaKey) && e.key === 'F5') {
-          e.preventDefault();
-          sessionStorage.setItem('force-sw-refresh', 'true');
-          window.location.reload(true);
-        }
-      });
     })();
   </script>
 </body>
