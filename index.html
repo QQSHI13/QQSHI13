@@ -12,7 +12,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>QQSHI13 — Developer & Creator</title>
-  <meta name="description" content="13-year-old developer building web tools, desktop apps, Minecraft mods, and hardware projects with AI assistance.">
+  <meta name="description" content="12-year-old developer building web tools, desktop apps, Minecraft mods, and hardware projects with AI assistance.">
   
   <!-- PWA -->
   <link rel="manifest" href="/manifest.json">
@@ -523,12 +523,33 @@
     (function() {
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/sw.js')
-          .then(reg => console.log('[PWA] SW registered:', reg.scope))
+          .then(reg => {
+            console.log('[PWA] SW registered:', reg.scope);
+            
+            // Listen for updates
+            reg.addEventListener('updatefound', () => {
+              const newWorker = reg.installing;
+              newWorker.addEventListener('statechange', () => {
+                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                  // New version available
+                  const toast = document.getElementById('update-toast');
+                  if (toast) toast.classList.add('show');
+                }
+              });
+            });
+          })
           .catch(err => console.log('[PWA] SW failed:', err));
         
-        // Check for updates
+        // Listen for controllerchange (page refreshed with new SW)
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+          console.log('[PWA] New controller activated');
+        });
+        
+        // Check for updates periodically
         setInterval(() => {
-          navigator.serviceWorker.ready.then(reg => reg.update());
+          navigator.serviceWorker.ready.then(reg => {
+            reg.update().catch(() => {});
+          }).catch(() => {});
         }, 60000);
       }
       
