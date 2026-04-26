@@ -10,9 +10,18 @@ const urlsToCache = [
   '/README.md'
 ];
 
+let cachePromise = null;
+
+function getCache() {
+  if (!cachePromise) {
+    cachePromise = caches.open(CACHE_NAME);
+  }
+  return cachePromise;
+}
+
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME)
+    getCache()
       .then((cache) => cache.addAll(urlsToCache))
       .then(() => self.skipWaiting())
   );
@@ -44,7 +53,7 @@ self.addEventListener('fetch', (event) => {
         .then((networkResponse) => {
           if (networkResponse && networkResponse.status === 200) {
             const responseClone = networkResponse.clone();
-            caches.open(CACHE_NAME).then((cache) => {
+            getCache().then((cache) => {
               cache.put(event.request, responseClone);
             });
           }
@@ -52,7 +61,14 @@ self.addEventListener('fetch', (event) => {
         })
         .catch(() => {
           return caches.match(event.request)
-            .then((cached) => cached || caches.match('/index.html'));
+            .then((cached) => {
+              if (cached) return cached;
+              // Only return index.html for navigation requests (not for missing assets)
+              if (event.request.mode === 'navigate') {
+                return caches.match('/index.html');
+              }
+              return new Response('Not found', { status: 404 });
+            });
         })
     );
   } else {
@@ -63,7 +79,7 @@ self.addEventListener('fetch', (event) => {
           .then((networkResponse) => {
             if (networkResponse && networkResponse.status === 200) {
               const responseClone = networkResponse.clone();
-              caches.open(CACHE_NAME).then((cache) => {
+              getCache().then((cache) => {
                 cache.put(event.request, responseClone);
               });
             }

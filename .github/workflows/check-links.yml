@@ -33,6 +33,7 @@ jobs:
             --timeout 30
             --retry-wait-time 3
             README.md
+            index.html
           fail: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

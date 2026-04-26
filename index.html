@@ -11,16 +11,17 @@
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QQSHI13 — Developer & Creator</title>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; manifest-src 'self';">
+  <title>QQSHI13 - Developer & Creator</title>
   <meta name="description" content="12-year-old developer building web tools, desktop apps, Minecraft mods, and hardware projects with AI assistance.">
-  
+
   <!-- PWA -->
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#0d1117">
-  
+
   <!-- Icons -->
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%2358a6ff'/%3E%3Ctext x='50' y='65' font-size='50' text-anchor='middle' fill='white'%3EQQ%3C/text%3E%3C/svg%3E">
-  
+
   <style>
     :root {
       --bg: #0d1117;
@@ -34,9 +35,9 @@
       --success: #238636;
       --warning: #d29922;
     }
-    
+
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    
+
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif;
       background: var(--bg);
@@ -44,13 +45,13 @@
       line-height: 1.6;
       min-height: 100vh;
     }
-    
+
     .container {
       max-width: 960px;
       margin: 0 auto;
       padding: 40px 20px;
     }
-    
+
     /* Header */
     .header {
       text-align: center;
@@ -58,7 +59,7 @@
       border-bottom: 1px solid var(--border);
       margin-bottom: 40px;
     }
-    
+
     .avatar {
       width: 80px;
       height: 80px;
@@ -72,18 +73,18 @@
       color: white;
       margin: 0 auto 16px;
     }
-    
+
     .header h1 {
       font-size: 2rem;
       color: #e6edf3;
       margin-bottom: 8px;
     }
-    
+
     .header .subtitle {
       color: var(--text-secondary);
       font-size: 1.1rem;
     }
-    
+
     .header .ai-badge {
       display: inline-flex;
       align-items: center;
@@ -95,7 +96,7 @@
       font-size: 0.85rem;
       margin-top: 12px;
     }
-    
+
     /* Sections */
     h2 {
       color: #e6edf3;
@@ -105,11 +106,11 @@
       align-items: center;
       gap: 10px;
     }
-    
+
     h2:first-of-type {
       margin-top: 0;
     }
-    
+
     /* Project Cards */
     .projects-grid {
       display: grid;
@@ -117,7 +118,7 @@
       gap: 16px;
       margin: 20px 0;
     }
-    
+
     .project-card {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -125,54 +126,54 @@
       padding: 20px;
       transition: all 0.2s ease;
     }
-    
+
     .project-card:hover {
       border-color: var(--accent);
       background: var(--surface-hover);
     }
-    
+
     .project-card h3 {
       font-size: 1.1rem;
       margin-bottom: 8px;
       color: #e6edf3;
     }
-    
+
     .project-card h3 a {
       color: inherit;
       text-decoration: none;
     }
-    
+
     .project-card h3 a:hover {
       color: var(--accent);
     }
-    
+
     .project-card p {
       color: var(--text-secondary);
       font-size: 0.9rem;
       margin-bottom: 12px;
     }
-    
+
     .project-card .links {
       display: flex;
       gap: 12px;
       font-size: 0.85rem;
     }
-    
+
     .project-card .links a {
       color: var(--accent);
     }
-    
+
     .project-card .links a:hover {
       color: var(--accent-hover);
     }
-    
+
     .project-card .tags {
       display: flex;
       gap: 6px;
       margin-top: 12px;
       flex-wrap: wrap;
     }
-    
+
     .tag {
       background: rgba(88, 166, 255, 0.1);
       color: var(--accent);
@@ -180,7 +181,7 @@
       border-radius: 4px;
       font-size: 0.75rem;
     }
-    
+
     /* Stats row */
     .stats-row {
       display: grid;
@@ -188,7 +189,7 @@
       gap: 16px;
       margin: 20px 0;
     }
-    
+
     .stat-box {
       background: var(--surface);
       border: 1px solid var(--border);
@@ -196,68 +197,68 @@
       padding: 16px;
       text-align: center;
     }
-    
+
     .stat-box .number {
       font-size: 1.8rem;
       font-weight: bold;
       color: var(--accent);
     }
-    
+
     .stat-box .label {
       color: var(--text-secondary);
       font-size: 0.85rem;
       margin-top: 4px;
     }
-    
+
     /* Table (legacy) */
     table {
       width: 100%;
       border-collapse: collapse;
       margin: 16px 0;
     }
-    
+
     th, td {
       padding: 12px;
       text-align: left;
       border-bottom: 1px solid var(--border);
     }
-    
+
     th {
       font-weight: 600;
       color: #e6edf3;
     }
-    
+
     tr:hover {
       background-color: var(--surface-hover);
     }
-    
+
     a {
       color: var(--accent);
       text-decoration: none;
     }
-    
+
     a:hover {
       color: var(--accent-hover);
       text-decoration: underline;
     }
-    
+
     hr {
       border: none;
       border-top: 1px solid var(--border);
       margin: 32px 0;
     }
-    
+
     footer {
       text-align: center;
       color: var(--text-secondary);
       padding: 40px 0 20px;
       font-size: 0.9rem;
     }
-    
+
     footer a {
       color: var(--accent);
     }
-    
+
     /* Update toast */
     .update-toast {
       position: fixed;
@@ -273,17 +274,17 @@
       gap: 12px;
       z-index: 1000;
     }
-    
+
     .update-toast.show {
       display: flex;
       animation: slideIn 0.3s ease;
     }
-    
+
     @keyframes slideIn {
       from { transform: translateY(100px); opacity: 0; }
       to { transform: translateY(0); opacity: 1; }
     }
-    
+
     .update-btn {
       background: white;
       color: var(--success);
@@ -293,7 +294,7 @@
       cursor: pointer;
       font-weight: 600;
     }
-    
+
     @media (max-width: 600px) {
       .container { padding: 20px 16px; }
       .header h1 { font-size: 1.5rem; }
@@ -305,16 +306,17 @@
 <body>
   <div class="container">
     <!-- Header -->
-    <div class="header">
+    <header class="header">
       <div class="avatar">QQ</div>
       <h1>QQSHI13</h1>
       <p class="subtitle">12-year-old developer building tools with AI</p>
       <div class="ai-badge">
         <span>☄️</span>
-        <span>Powered by Nova — AI pair programmer running on OpenClaw</span>
+        <span>Powered by Nova - AI pair programmer running on OpenClaw</span>
       </div>
-    </div>
-    
+    </header>
+
+    <main>
     <!-- Quick Stats -->
     <div class="stats-row">
       <div class="stat-box">
@@ -350,7 +352,7 @@
           <span class="tag">PWA</span>
         </div>
       </div>
-      
+
       <div class="project-card">
         <h3><a href="https://qqshi13.github.io/droptransfer/">📦 DropTransfer</a></h3>
         <p>P2P file sharing directly in browser. WebRTC with heartbeat monitoring & integrity verification</p>
@@ -363,7 +365,7 @@
           <span class="tag">PWA</span>
         </div>
       </div>
-      
+
       <div class="project-card">
         <h3><a href="https://qqshi13.github.io/collaboard/">🎨 CollaBoard</a></h3>
         <p>Real-time collaborative whiteboard with WebRTC sync</p>
@@ -376,7 +378,7 @@
           <span class="tag">Canvas</span>
         </div>
       </div>
-      
+
       <div class="project-card">
         <h3><a href="https://qqshi13.github.io/flow/">⏱️ Flow</a></h3>
         <p>Pomodoro timer with progress ring and PWA support</p>
@@ -389,7 +391,7 @@
           <span class="tag">Timer</span>
         </div>
       </div>
-      
+
       <div class="project-card">
         <h3><a href="https://qqshi13.github.io/lifelab/">🦠 LifeLab</a></h3>
         <p>Conway's Game of Life simulator with infinite canvas</p>
@@ -403,7 +405,7 @@
         </div>
       </div>
     </div>
-    
+
     <!-- Desktop & Apps -->
     <h2>💻 Desktop & Apps</h2>
     <div class="projects-grid">
@@ -418,10 +420,10 @@
           <span class="tag">Microsoft Store</span>
         </div>
       </div>
-      
+
       <div class="project-card">
         <h3><a href="https://github.com/QQSHI13/droptransfer-cli">📦 DropTransfer CLI</a></h3>
-        <p>Terminal file sharing via WebRTC — no browser needed</p>
+        <p>Terminal file sharing via WebRTC - no browser needed</p>
         <div class="links">
           <a href="https://github.com/QQSHI13/droptransfer-cli">GitHub</a>
         </div>
@@ -431,13 +433,13 @@
         </div>
       </div>
     </div>
-    
+
     <!-- Games & Mods -->
     <h2>🎮 Games & Mods</h2>
     <div class="projects-grid">
       <div class="project-card">
         <h3><a href="https://github.com/QQSHI13/skylight-mod">🌅 Skylight Mod</a></h3>
-        <p>Minecraft Fabric 1.21 mod — peaceful mode, free camera, time pause, enhanced screenshots</p>
+        <p>Minecraft Fabric 1.21 mod - peaceful mode, free camera, time pause, enhanced screenshots</p>
         <div class="links">
           <a href="https://github.com/QQSHI13/skylight-mod">GitHub</a>
         </div>
@@ -447,7 +449,7 @@
           <span class="tag">Minecraft</span>
         </div>
       </div>
-      
+
       <div class="project-card">
         <h3><a href="https://github.com/QQSHI13/battery-panic">🔋 Battery Panic</a></h3>
         <p>Pixel art game about surviving low battery with real battery-saving tips</p>
@@ -460,7 +462,7 @@
         </div>
       </div>
     </div>
-    
+
     <!-- Hardware -->
     <h2>🔌 Hardware & IoT</h2>
     <table>
@@ -480,12 +482,12 @@
         </tr>
       </tbody>
     </table>
-    
+
     <!-- Skills -->
     <h2>🛠️ Published Skills</h2>
     <div class="project-card">
       <h3><a href="https://clawhub.com/skills/wincontrol">🖥️ WinControl</a></h3>
-      <p>AI remote control for Windows — HTTP API for screenshot capture, mouse/keyboard control</p>
+      <p>AI remote control for Windows - HTTP API for screenshot capture, mouse/keyboard control</p>
       <div class="links">
         <a href="https://clawhub.com/skills/wincontrol">ClawHub</a>
       </div>
@@ -496,7 +498,7 @@
     </div>
 
     <hr>
-    
+
     <!-- Links -->
     <h2>🔗 Connect</h2>
     <p>
@@ -505,9 +507,11 @@
       💬 <strong>Discussions:</strong> <a href="https://github.com/QQSHI13/QQSHI13/discussions">Start a conversation</a><br>
       💝 <strong>Support:</strong> <a href="https://afdian.com/a/QQSHI13">afdian.com/a/QQSHI13</a>
     </p>
-    
+
+    </main>
+
     <footer>
-      <p>Built with ☄️ Nova — AI pair programmer running on OpenClaw</p>
+      <p>Built with ☄️ Nova - AI pair programmer running on OpenClaw</p>
       <p style="margin-top: 8px; font-size: 0.8rem;">All projects licensed under GPL-3.0</p>
     </footer>
   </div>
@@ -525,7 +529,7 @@
         navigator.serviceWorker.register('/sw.js')
           .then(reg => {
             console.log('[PWA] SW registered:', reg.scope);
-            
+
             // Listen for updates
             reg.addEventListener('updatefound', () => {
               const newWorker = reg.installing;
@@ -539,20 +543,20 @@
             });
           })
           .catch(err => console.log('[PWA] SW failed:', err));
-        
+
         // Listen for controllerchange (page refreshed with new SW)
         navigator.serviceWorker.addEventListener('controllerchange', () => {
           console.log('[PWA] New controller activated');
         });
-        
-        // Check for updates periodically
+
+        // Check for updates periodically (every 5 minutes)
         setInterval(() => {
           navigator.serviceWorker.ready.then(reg => {
             reg.update().catch(() => {});
           }).catch(() => {});
-        }, 60000);
+        }, 300000);
       }
-      
+
       window.refreshPage = function() {
         location.reload();
       };
