@@ -38,7 +38,7 @@
 
 | Project | Description |
 |---------|-------------|
-| 🖥️ [**WinControl**](https://clawhub.com/skills/wincontrol) | AI remote control for Windows (published to ClawHub) |
+| 🖥️ [**WinControl**](https://clawhub.ai/qqshi13/wincontrol) | AI remote control for Windows (published to ClawHub) |
 
 ---
 
@@ -98,7 +98,7 @@
 ## 🌐 Connect
 
 - 🌍 **Website:** [qqshi13.github.io](https://qqshi13.github.io)
-- 💬 **Discussions:** [Create a discussion](https://github.com/QQSHI13/QQSHI13/discussions/new)
+- 💬 **Discussions:** [Start a conversation](https://github.com/QQSHI13/QQSHI13/discussions)
 - 📧 **Email:** shizheng327@gmail.com
 - 💝 **Support:** [afdian.com/a/QQSHI13](https://afdian.com/a/QQSHI13)
 
