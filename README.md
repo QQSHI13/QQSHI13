@@ -25,7 +25,6 @@
 | 📝 [**Quick Notes**](https://github.com/QQSHI13/quick-notes) | Command Palette extension for Windows | Microsoft Store |
 | 🎮 [**Skylight Mod**](https://github.com/QQSHI13/skylight-mod) | Minecraft Fabric 1.21 photography mod | Java |
 | 🔋 [**Battery Panic**](https://github.com/QQSHI13/battery-panic) | Pixel art game about battery management | Godot |
-| 📦 [**DropTransfer CLI**](https://github.com/QQSHI13/droptransfer-cli) | Terminal file sharing via WebRTC | Node.js |
 
 ### Hardware & IoT
 
