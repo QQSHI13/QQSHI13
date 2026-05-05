@@ -38,6 +38,7 @@
 | Project | Description |
 |---------|-------------|
 | 🖥️ [**WinControl**](https://clawhub.ai/qqshi13/wincontrol) | AI remote control for Windows (published to ClawHub) |
+| 🧹 [**claw-clean**](https://www.npmjs.com/package/claw-clean) | Interactive session cleanup tool for OpenClaw (published to npm) |
 
 ---
 
