@@ -107,3 +107,15 @@
 **Built with ☄️ Nova — AI pair programmer running on OpenClaw**
 
 *All projects licensed under GPL-3.0*
+
+---
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#QQSHI13/QQSHI13&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=QQSHI13/QQSHI13&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=QQSHI13/QQSHI13&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=QQSHI13/QQSHI13&type=Date" />
+  </picture>
+</a>
