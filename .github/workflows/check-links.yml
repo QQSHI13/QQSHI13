@@ -39,10 +39,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create issue on failure
-        if: failure() && github.event_name == 'schedule'
-        uses: peter-evans/create-issue-from-file@v4
-        with:
-          title: '🔗 Link Checker Report'
-          content-filepath: ./lychee/out.md
-          labels: 'bug, documentation'
+      # Note: Issue creation removed - just fail the workflow, don't spam issues
