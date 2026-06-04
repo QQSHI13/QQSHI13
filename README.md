@@ -1,8 +1,14 @@
 # Hi, I'm QQ (施清荃) 👋
 
-**12-year-old developer** building tools with AI assistance. I create web apps, desktop software, Minecraft mods, and hardware projects — all open source.
+**12-year-old developer** building tools with AI assistance. I create web apps, desktop software, Minecraft mods, CLI tools, and hardware projects — all open source.
 
 > 💡 **AI-powered workflow**: Every project is built with Nova ☄️, my AI pair programmer running on OpenClaw
+
+> [!WARNING]
+> I love vendoring important repos I use that don't update for 1+ months, so be careful — you don't know when will your code be incorparated into my projects!
+
+> [!NOTE]
+> Don't worry, though, I will respect your licenses.
 
 ---
 
@@ -63,13 +69,12 @@
 ![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![ESP32](https://img.shields.io/badge/-ESP32-E7352C?style=flat-square)
 ![Godot](https://img.shields.io/badge/-Godot-478CBF?style=flat-square&logo=godot-engine&logoColor=white)
-![Minecraft](https://img.shields.io/badge/-Minecraft%20Fabric-62B47A?style=flat-square)
+![Minecraft](https://img.shields.io/badge/-Minecraft-62B47A?style=flat-square)
 
 **AI Stack**
 
 ![OpenClaw](https://img.shields.io/badge/-OpenClaw-FF6B6B?style=flat-square)
 ![Kimi](https://img.shields.io/badge/-Kimi%20AI-000000?style=flat-square)
-![Claude](https://img.shields.io/badge/-Claude-CC785C?style=flat-square)
 
 ---
 
@@ -99,7 +104,7 @@
 
 - 🌍 **Website:** [qqshi13.github.io](https://qqshi13.github.io)
 - 💬 **Discussions:** [Start a conversation](https://github.com/QQSHI13/QQSHI13/discussions)
-- 📧 **Email:** shizheng327@gmail.com
+- 📧 **Email:** qingquanshi65@gmail.com
 - 💝 **Support:** [afdian.com/a/QQSHI13](https://afdian.com/a/QQSHI13)
 
 ---
@@ -107,15 +112,3 @@
 **Built with ☄️ Nova — AI pair programmer running on OpenClaw**
 
 *All projects licensed under GPL-3.0*
-
----
-
-## Star History
-
-<a href="https://www.star-history.com/?repos=QQSHI13%2FQQSHI13&type=date&legend=top-left">
- <picture>
- <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=QQSHI13/QQSHI13&type=date&theme=dark&legend=top-left" />
- <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=QQSHI13/QQSHI13&type=date&legend=top-left" />
- <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=QQSHI13/QQSHI13&type=date&legend=top-left" />
- </picture>
-</a>
