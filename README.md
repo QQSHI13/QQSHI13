@@ -107,6 +107,7 @@
 - 💬 **Discussions:** [Start a conversation](https://github.com/QQSHI13/QQSHI13/discussions)
 - 📧 **Email:** qingquanshi65@gmail.com
 - 💝 **Support:** [afdian.com/a/QQSHI13](https://afdian.com/a/QQSHI13)
+- **Hackster:** [hackster.io/shizheng327](https://www.hackster.io/shizheng327)
 
 ---
 
