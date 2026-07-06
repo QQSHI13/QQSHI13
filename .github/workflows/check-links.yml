@@ -33,6 +33,7 @@ jobs:
             --exclude '^data:'
             --exclude 'github-readme-stats.vercel.app'
             --exclude 'github-readme-activity-graph.vercel.app'
+            --exclude 'npmjs.com'
             README.md
           fail: true
         env:
