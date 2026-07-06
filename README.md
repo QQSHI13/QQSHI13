@@ -23,7 +23,7 @@
 | 🎨 [**CollaBoard**](https://github.com/QQSHI13/collaboard) | Real-time collaborative whiteboard | [Live →](https://qqshi13.github.io/collaboard/) |
 | ⏱️ [**Flow**](https://github.com/QQSHI13/flow) | Pomodoro timer with PWA support | [Live →](https://qqshi13.github.io/flow/) |
 | 🦠 [**LifeLab**](https://github.com/QQSHI13/lifelab) | Conway's Game of Life simulator | [Live →](https://qqshi13.github.io/lifelab/) |
-| 📚 [**DocsForge**](https://github.com/QQSHI13/docsforge) | Self-contained documentation engine — pip install, write Markdown, done | [Live →](https://qqshi13.github.io/docsforge-docs/) |
+| 📚 [**DocsForge**](https://github.com/QQSHI13/docsforge) | Self-contained documentation engine — pip install, write Markdown, done | [Live →](https://qqshi13.github.io/docsforge) |
 
 ### Apps & Software
 

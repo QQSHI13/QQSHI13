@@ -31,6 +31,8 @@ jobs:
             --timeout 30
             --retry-wait-time 3
             --exclude '^data:'
+            --exclude 'github-readme-stats.vercel.app'
+            --exclude 'github-readme-activity-graph.vercel.app'
             README.md
           fail: true
         env:
