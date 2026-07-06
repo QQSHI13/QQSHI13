@@ -32,7 +32,6 @@ jobs:
             --retry-wait-time 3
             --exclude '^data:'
             README.md
-            index.html
           fail: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
