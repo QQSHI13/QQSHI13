@@ -24,6 +24,7 @@
 | ⏱️ [**Flow**](https://github.com/QQSHI13/flow) | Pomodoro timer with PWA support | [Live →](https://qqshi13.github.io/flow/) |
 | 🦠 [**LifeLab**](https://github.com/QQSHI13/lifelab) | Conway's Game of Life simulator | [Live →](https://qqshi13.github.io/lifelab/) |
 | 📚 [**DocsForge**](https://github.com/QQSHI13/docsforge) | Self-contained documentation engine — pip install, write Markdown, done | [Live →](https://qqshi13.github.io/docsforge) |
+| 🪟 [**BSOD Studio**](https://github.com/QQSHI13/bsod-studio) | Design your own Blue Screen of Death — every era, animated, PNG/GIF export | [Live →](https://qqshi13.github.io/bsod-studio/) |
 
 ### Apps & Software
 
