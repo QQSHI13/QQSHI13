@@ -48,6 +48,13 @@
 | 🖥️ [**WinControl**](https://clawhub.ai/qqshi13/wincontrol) | AI remote control for Windows (published to ClawHub) |
 | 🧹 [**claw-clean**](https://www.npmjs.com/package/claw-clean) | Interactive session cleanup tool for OpenClaw (published to npm) |
 
+### Libraries & Dev Tools
+
+| Project | Description | Link |
+|---------|-------------|------|
+| 🔎 [**marz**](https://github.com/QQSHI13/marz) | Offline-first search engine with first-class CJK support — no segmentation dictionaries, WASM/Python/JS bindings | [PyPI →](https://pypi.org/project/marz-search/) |
+| 🤖 [**fox-agent**](https://github.com/QQSHI13/fox-agent) | Coding-agent harness in TypeScript/Bun — subagents, worktrees, and MCP support | [GitHub →](https://github.com/QQSHI13/fox-agent) |
+
 ---
 
 ## 🛠️ Tech Stack
