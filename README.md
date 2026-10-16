@@ -46,7 +46,7 @@
 | Project | Description |
 |---------|-------------|
 | 🖥️ [**WinControl**](https://clawhub.ai/qqshi13/wincontrol) | AI remote control for Windows (published to ClawHub) |
-| 🧹 [**claw-clean**](https://www.npmjs.com/package/claw-clean) | Interactive session cleanup tool for OpenClaw (published to npm) |
+| 🧹 [**claw-clean**](https://www.npmjs.com/package/claw-clean) | Interactive session cleanup CLI — TUI menu with arrow-key navigation (published to npm) |
 
 ### Libraries & Dev Tools
 
@@ -82,7 +82,6 @@
 
 **AI Stack**
 
-![OpenClaw](https://img.shields.io/badge/-OpenClaw-FF6B6B?style=flat-square)
 ![Kimi](https://img.shields.io/badge/-Kimi%20AI-000000?style=flat-square)
 
 ---
