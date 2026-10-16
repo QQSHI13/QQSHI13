@@ -2,7 +2,7 @@
 
 **13-year-old developer** building tools with AI assistance. I create web apps, desktop software, Minecraft mods, CLI tools, and hardware projects — all open source.
 
-> 💡 **AI-powered workflow**: Every project is built with Nova ☄️, my AI pair programmer running on OpenClaw
+> 💡 **AI-powered workflow**: Every project is built with Nova ☄️
 
 > [!WARNING]
 > I love vendoring important repos I use that don't update for 1+ months, so be careful — you don't know when will your code be incorporated into my projects!
@@ -108,10 +108,10 @@
 - 💬 **Discussions:** [Start a conversation](https://github.com/QQSHI13/QQSHI13/discussions)
 - 📧 **Email:** qingquanshi65@gmail.com
 - 💝 **Support:** [afdian.com/a/QQSHI13](https://afdian.com/a/QQSHI13)
-- **Hackster:** [hackster.io/shizheng327](https://www.hackster.io/shizheng327)
+- **Hackster:** [hackster.io/QQSHI13](https://www.hackster.io/QQSHI13)
 
 ---
 
-**Built with ☄️ Nova — AI pair programmer running on OpenClaw**
+**Built with ☄️ Nova**
 
 *All projects licensed under GPL-3.0*
